@@ -1,1 +1,2 @@
-alert("Jesus is alive");
+let firstName = "Chijioke";
+alert(firstName);
