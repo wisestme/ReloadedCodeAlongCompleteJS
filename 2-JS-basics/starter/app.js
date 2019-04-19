@@ -24,6 +24,7 @@ confirm(firstName + ' I know your age');
 alert('You are ' + age + ' years old!');
 */
 
+/*
 let markMass, johnMass, markHeight, johnHeight,
 	markBMI, johnBMI, isMarkBMIGreater;
 
@@ -38,3 +39,20 @@ johnBMI = johnMass/(johnHeight * johnHeight);
 isMarkBMIGreater = markBMI > johnBMI;
 
 alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
+*/
+
+let firstName = 'Cohbams';
+let maritalStatus = 'single';
+
+if (maritalStatus === 'married') {
+	alert(firstName + ' is married');
+} else {
+	alert(firstName + ' is still a bachelor');
+}
+
+let isMarried = false;
+if (isMarried) {
+	alert(firstName + ' is married');
+} else {
+	alert(firstName + ' is still a bachelor');
+}
