@@ -31,3 +31,6 @@ markHeight = 1.5;
 markMass = 70;
 johnHeight = 1.7;
 johnMass = 68;
+
+markBMI = markMass/(markHeight * markHeight);
+johnBMI = johnMass/(johnHeight * johnHeight);
