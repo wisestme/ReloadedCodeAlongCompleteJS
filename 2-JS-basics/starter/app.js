@@ -25,12 +25,16 @@ alert('You are ' + age + ' years old!');
 */
 
 let markMass, johnMass, markHeight, johnHeight,
-	markBMI, johnBMI;
+	markBMI, johnBMI, isMarkBMIGreater;
 
-markHeight = 1.5;
+markHeight = 1.7;
 markMass = 70;
-johnHeight = 1.7;
-johnMass = 68;
+johnHeight = 1.5;
+johnMass = 70;
 
 markBMI = markMass/(markHeight * markHeight);
 johnBMI = johnMass/(johnHeight * johnHeight);
+
+isMarkBMIGreater = markBMI > johnBMI;
+
+alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
