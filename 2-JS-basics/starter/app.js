@@ -122,3 +122,5 @@ mikeGame2 = 94;
 mikeGame3 = 123;
 
 johnAverage = (johnGame1 + johnGame2 + johnGame3)/3;
+
+mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
