@@ -108,7 +108,7 @@ switch (true) {
 
 // CODING CHALLENGE 2
 
-let teamJohn, teamMike, 
+let teamJohnWins, teamMikeWins, 
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
 	mikeAverage, johnAverage;
@@ -124,3 +124,5 @@ mikeGame3 = 123;
 johnAverage = (johnGame1 + johnGame2 + johnGame3)/3;
 
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
+
+teamJohnWins = johnAverage > mikeAverage;
