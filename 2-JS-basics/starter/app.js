@@ -40,7 +40,7 @@ isMarkBMIGreater = markBMI > johnBMI;
 
 alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
 */
-
+/*
 let firstName = 'Cohbams';
 let maritalStatus = 'single';
 
@@ -55,4 +55,14 @@ if (isMarried) {
 	alert(firstName + ' is married');
 } else {
 	alert(firstName + ' is still a bachelor');
+}
+*/
+
+let firstName, age;
+
+firstName = 'Sammy';
+age = 40;
+
+if (age > 13) {
+	alert(firstName + ' is a man');
 }
