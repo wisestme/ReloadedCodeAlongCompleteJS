@@ -62,7 +62,7 @@ let firstName, age;
 
 firstName = 'Sammy';
 age = 40;
-
+/*
 if (age < 13) {
 	alert(firstName + ' is still a small boy');
 } else if (age >= 13 && age < 20) {
@@ -72,3 +72,6 @@ if (age < 13) {
 } else {
 	alert(firstName + ' is now an advanced man');
 }
+*/
+age > 18 ? alert(firstName + ' drinks beer'):
+		   alert(firstName + ' drinks juice');
