@@ -65,4 +65,6 @@ age = 40;
 
 if (age > 13) {
 	alert(firstName + ' is a man');
+} else {
+	alert(firstName + ' is still a small boy');
 }
