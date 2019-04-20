@@ -78,6 +78,7 @@ let drink = age >= 18 ? 'beer':'juice';
 alert(firstName + ' drink\'s ' + drink);
 */
 
+/*
 let firstName, age;
 
 firstName = 'Ahab';
@@ -103,3 +104,15 @@ switch (true) {
 		alert(firstName + ' is not human');
 		break;
 }
+*/
+
+// CODING CHALLENGE 2
+
+let teamJohn, teamMike, 
+	johnGame1, johnGame2, johnGame3,
+	mikeGame1, mikeGame2, mikeGame3,
+	mikeAverage, johnAverage;
+
+johnGame1 = 89;
+johnGame2 = 120;
+johnGame3 = 103;
