@@ -61,7 +61,7 @@ if (isMarried) {
 let firstName, age;
 
 firstName = 'Sammy';
-age = 40;
+age = 4;
 /*
 if (age < 13) {
 	alert(firstName + ' is still a small boy');
@@ -73,5 +73,5 @@ if (age < 13) {
 	alert(firstName + ' is now an advanced man');
 }
 */
-age > 18 ? alert(firstName + ' drinks beer'):
-		   alert(firstName + ' drinks juice');
+let drink = age >= 18 ? 'beer':'juice';
+alert(firstName + ' drink\'s ' + drink);
