@@ -108,9 +108,10 @@ switch (true) {
 
 // CODING CHALLENGE 2
 
-let teamJohnWins, teamMikeWins, 
+let teamJohnWins, teamMikeWins, teamMaryWins,
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
+	maryGame1, maryGame2, maryGame3,
 	mikeAverage, johnAverage,
 	gameDraw;
 
