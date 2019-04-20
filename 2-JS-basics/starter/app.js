@@ -80,8 +80,8 @@ alert(firstName + ' drink\'s ' + drink);
 
 let firstName, age;
 
-firstName = 'Sammy';
-age = 120;
+firstName = 'Ahab';
+age = 140;
 
 switch (true) {
 	case age < 13:
