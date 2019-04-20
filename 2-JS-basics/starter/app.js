@@ -112,7 +112,7 @@ let teamJohnWins, teamMikeWins, teamMaryWins,
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
 	maryGame1, maryGame2, maryGame3,
-	mikeAverage, johnAverage,
+	mikeAverage, johnAverage, maryAverage,
 	gameDraw;
 
 johnGame1 = 94;
@@ -131,9 +131,13 @@ johnAverage = (johnGame1 + johnGame2 + johnGame3)/3;
 
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
 
-teamJohnWins = johnAverage > mikeAverage;
+maryAverage = (maryGame1 + maryGame2 + maryGame3)/3;
 
-gameDraw = johnAverage === mikeAverage;
+teamJohnWins = johnAverage > mikeAverage && johnAverage > maryAverage;
+
+teamMikeWins = johnAverage < mikeAverage && mikeAverage > maryAverage;
+
+gameDraw = johnAverage === mikeAverage && johnAverage === maryAverage;
 
 if (gameDraw) {
 	alert('a tie!!! play again to get a winner');
