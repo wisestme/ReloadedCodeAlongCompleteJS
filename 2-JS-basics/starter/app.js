@@ -133,16 +133,18 @@ mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
 
 maryAverage = (maryGame1 + maryGame2 + maryGame3)/3;
 
-teamJohnWins = johnAverage > mikeAverage && johnAverage > maryAverage;
+teamJohnWins = (johnAverage > mikeAverage) && (johnAverage > maryAverage);
 
-teamMikeWins = johnAverage < mikeAverage && mikeAverage > maryAverage;
+teamMikeWins = (johnAverage < mikeAverage) && (mikeAverage > maryAverage);
 
-gameDraw = johnAverage === mikeAverage && johnAverage === maryAverage;
+gameDraw = (johnAverage === mikeAverage) && (johnAverage === maryAverage);
 
 if (gameDraw) {
 	alert('a tie!!! play again to get a winner');
 } else if (teamJohnWins) {
 	alert('John\'s team has won with an average score of ' + johnAverage)
-} else {
+} else if (teamMikeWins) {
 	alert('Mike\'s team has won with an average score of ' + mikeAverage)
+} else {
+	alert('Mary\'s team has won with an average score of ' + maryAverage)
 }
