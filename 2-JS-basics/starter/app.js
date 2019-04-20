@@ -111,7 +111,8 @@ switch (true) {
 let teamJohnWins, teamMikeWins, 
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
-	mikeAverage, johnAverage;
+	mikeAverage, johnAverage
+	gameDraw;
 
 johnGame1 = 89;
 johnGame2 = 120;
@@ -126,3 +127,5 @@ johnAverage = (johnGame1 + johnGame2 + johnGame3)/3;
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
 
 teamJohnWins = johnAverage > mikeAverage;
+
+gameDraw = johnAverage === mikeAverage;
