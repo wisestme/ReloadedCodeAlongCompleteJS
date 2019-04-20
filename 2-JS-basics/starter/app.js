@@ -81,7 +81,7 @@ alert(firstName + ' drink\'s ' + drink);
 let firstName, age;
 
 firstName = 'Sammy';
-age = 40;
+age = 120;
 
 switch (true) {
 	case age < 13:
@@ -95,6 +95,9 @@ switch (true) {
 		break;
 	case age >= 30 && age < 50:
 		alert(firstName + ' is now a man');
+		break;
+	case age >= 50 && age <= 120:
+		alert(firstName + ' is now an old man');
 		break;
 	default:
 		alert(firstName + ' is not human');
