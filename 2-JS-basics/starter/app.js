@@ -111,14 +111,14 @@ switch (true) {
 let teamJohnWins, teamMikeWins, 
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
-	mikeAverage, johnAverage
+	mikeAverage, johnAverage,
 	gameDraw;
 
-johnGame1 = 89;
+johnGame1 = 94;
 johnGame2 = 120;
 johnGame3 = 103;
 
-mikeGame1 = 116;
+mikeGame1 = 100;
 mikeGame2 = 94;
 mikeGame3 = 123;
 
@@ -135,5 +135,5 @@ if (gameDraw) {
 } else if (teamJohnWins) {
 	alert('John\'s team has won with an average score of ' + johnAverage)
 } else {
-	alert('Mike's\'s team has won with an average score of ' + mikeAverage)
+	alert('Mike\'s team has won with an average score of ' + mikeAverage)
 }
