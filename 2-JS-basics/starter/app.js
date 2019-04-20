@@ -129,3 +129,11 @@ mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
 teamJohnWins = johnAverage > mikeAverage;
 
 gameDraw = johnAverage === mikeAverage;
+
+if (gameDraw) {
+	alert('a tie!!! play again to get a winner');
+} else if (teamJohnWins) {
+	alert('John\'s team has won with an average score of ' + johnAverage)
+} else {
+	alert('Mike's\'s team has won with an average score of ' + mikeAverage)
+}
