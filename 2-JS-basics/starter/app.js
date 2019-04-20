@@ -58,11 +58,12 @@ if (isMarried) {
 }
 */
 
+/*
 let firstName, age;
 
 firstName = 'Sammy';
 age = 4;
-/*
+
 if (age < 13) {
 	alert(firstName + ' is still a small boy');
 } else if (age >= 13 && age < 20) {
@@ -72,6 +73,30 @@ if (age < 13) {
 } else {
 	alert(firstName + ' is now an advanced man');
 }
-*/
+
 let drink = age >= 18 ? 'beer':'juice';
 alert(firstName + ' drink\'s ' + drink);
+*/
+
+let firstName, age;
+
+firstName = 'Sammy';
+age = 40;
+
+switch (true) {
+	case age < 13:
+		alert(firstName + ' is still a small boy');
+		break;
+	case age >= 13 && age < 20:
+		alert(firstName + ' is still a teenager');
+		break;
+	case age >= 20 && age < 30:
+		alert(firstName + ' is an adult');
+		break;
+	case age >= 30 && age < 50:
+		alert(firstName + ' is now a man');
+		break;
+	default:
+		alert(firstName + ' is not human');
+		break;
+}
