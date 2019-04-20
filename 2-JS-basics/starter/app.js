@@ -61,13 +61,14 @@ if (isMarried) {
 let firstName, age;
 
 firstName = 'Sammy';
-age = 140;
+age = 40;
 
 if (age < 13) {
 	alert(firstName + ' is still a small boy');
 } else if (age >= 13 && age < 20) {
 	alert(firstName + ' is still a teenager');
-}
-else {
+} else if (age >= 20 && age < 50) {
 	alert(firstName + ' is now a man');
+} else {
+	alert(firstName + ' is now an advanced man');
 }
