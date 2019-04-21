@@ -137,7 +137,9 @@ teamJohnWins = (johnAverage > mikeAverage) && (johnAverage > maryAverage);
 
 teamMikeWins = (johnAverage < mikeAverage) && (mikeAverage > maryAverage);
 
-gameDraw = (johnAverage === mikeAverage) && (johnAverage === maryAverage);
+gameDraw = ((johnAverage === mikeAverage) && (johnAverage > maryAverage)) ||
+			((maryAverage === mikeAverage) && (johnAverage < maryAverage)) ||
+			((johnAverage === maryAverage) && (johnAverage > mikeAverage));
 
 if (gameDraw) {
 	alert('a tie!!! play again to get a winner');
