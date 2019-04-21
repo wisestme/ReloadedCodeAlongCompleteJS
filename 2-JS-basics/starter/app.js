@@ -116,8 +116,8 @@ let teamJohnWins, teamMikeWins, teamMaryWins,
 	gameDraw;
 
 johnGame1 = 94;
-johnGame2 = 120;
-johnGame3 = 103;
+johnGame2 = 134;
+johnGame3 = 108;
 
 mikeGame1 = 100;
 mikeGame2 = 94;
@@ -137,10 +137,13 @@ teamJohnWins = (johnAverage > mikeAverage) && (johnAverage > maryAverage);
 
 teamMikeWins = (johnAverage < mikeAverage) && (mikeAverage > maryAverage);
 
+// game draw condition
 gameDraw = ((johnAverage === mikeAverage) && (johnAverage > maryAverage)) ||
 			((maryAverage === mikeAverage) && (johnAverage < maryAverage)) ||
 			((johnAverage === maryAverage) && (johnAverage > mikeAverage));
 
+
+// output display
 if (gameDraw) {
 	alert('a tie!!! play again to get a winner');
 } else if (teamJohnWins) {
