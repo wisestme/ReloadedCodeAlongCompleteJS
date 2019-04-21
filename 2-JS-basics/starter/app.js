@@ -108,13 +108,15 @@ switch (true) {
 
 // CODING CHALLENGE 2
 
+// variable declarations
 let teamJohnWins, teamMikeWins, teamMaryWins,
 	johnGame1, johnGame2, johnGame3,
 	mikeGame1, mikeGame2, mikeGame3,
 	maryGame1, maryGame2, maryGame3,
 	mikeAverage, johnAverage, maryAverage,
-	gameDraw;
+	gameDraw, tiedTeams;
 
+// variable assignments
 johnGame1 = 94;
 johnGame2 = 134;
 johnGame3 = 108;
@@ -127,12 +129,14 @@ maryGame1 = 97;
 maryGame2 = 134;
 maryGame3 = 105;
 
+// calculate average game scores
 johnAverage = (johnGame1 + johnGame2 + johnGame3)/3;
 
 mikeAverage = (mikeGame1 + mikeGame2 + mikeGame3)/3;
 
 maryAverage = (maryGame1 + maryGame2 + maryGame3)/3;
 
+// set winner logic
 teamJohnWins = (johnAverage > mikeAverage) && (johnAverage > maryAverage);
 
 teamMikeWins = (johnAverage < mikeAverage) && (mikeAverage > maryAverage);
@@ -142,10 +146,20 @@ gameDraw = ((johnAverage === mikeAverage) && (johnAverage > maryAverage)) ||
 			((maryAverage === mikeAverage) && (johnAverage < maryAverage)) ||
 			((johnAverage === maryAverage) && (johnAverage > mikeAverage));
 
+// get the teams with a tie
+if (gameDraw) {
+	if(johnAverage < mikeAverage) {
+		tiedTeams = 'Mike\'s and Mary\'s teams';
+	} else if(maryAverage < mikeAverage) {
+		tiedTeams = 'Mike\'s and John\'s teams';
+	} else {
+		tiedTeams = 'Mary\'s and John\'s teams';
+	}
+}
 
 // output display
 if (gameDraw) {
-	alert('a tie!!! play again to get a winner');
+	alert('a tie between ' + tiedTeams + ' play again to get a winner');
 } else if (teamJohnWins) {
 	alert('John\'s team has won with an average score of ' + johnAverage)
 } else if (teamMikeWins) {
