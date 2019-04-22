@@ -181,6 +181,10 @@ let ageChijioke = calculateAge(1987, 2019);
 function yearsUntilRetirement (firstName, year, now) {
 	let age = calculateAge(year, now);
 	let retirement = 65 - age;
-	alert(firstName + ' retires in ' + retirement + 'years');
+	if (retirement > 0) {
+		alert(firstName + ' retires in ' + retirement + 'years');
+	} else {
+		alert(firstName + ' is already retired')
+	}
 }
-yearsUntilRetirement('Chijioke', 1987, 2019);
+yearsUntilRetirement('Chijioke', 1900, 2019);
