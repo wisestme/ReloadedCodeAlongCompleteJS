@@ -170,9 +170,17 @@ if (gameDraw) {
 }
 */
 
+
 function calculateAge (birthYear, currentYear) {
 	return currentYear - birthYear;
 }
 
 let ageChijioke = calculateAge(1987, 2019);
-alert(ageChijioke)
+//alert(ageChijioke)
+
+function yearsUntilRetirement (firstName, year, now) {
+	let age = calculateAge(year, now);
+	let retirement = 65 - age;
+	alert(firstName + ' retires in ' + retirement + 'years');
+}
+yearsUntilRetirement('Chijioke', 1987, 2019);
