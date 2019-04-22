@@ -170,7 +170,7 @@ if (gameDraw) {
 }
 */
 
-
+/*
 function calculateAge (birthYear, currentYear) {
 	return currentYear - birthYear;
 }
@@ -190,3 +190,21 @@ function yearsUntilRetirement (firstName, year, now) {
 yearsUntilRetirement('Emma', 1900, 2019);
 yearsUntilRetirement('Chijioke', 1987, 2019);
 yearsUntilRetirement('Nkechi', 1990, 2019);
+*/
+
+let whatDoYouDo = function (job, firstName) {
+	switch (job) {
+		case 'Teacher':
+			return firstName + ' teaches students';
+		case 'Doctor':
+			return firstName + ' treats patients';
+		case 'Lawyer':
+			return firstName + ' defends clients';
+		case 'Programmer':
+			return firstName + ' writes codes to solve problems';
+		default:
+		return firstName + ' is unemployed';
+	}
+}
+alert(whatDoYouDo('Programmer', 'Chijioke'));
+alert(whatDoYouDo('Teacher', 'Ayo'));
