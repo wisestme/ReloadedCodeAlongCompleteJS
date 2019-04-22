@@ -214,3 +214,7 @@ alert(whatDoYouDo('Teacher', 'Ayo'));
 // ARRAYS
 let names = ['Happiness',  'Josiah', 'Chris', 'Chijioke'];
 let years = [1988, 1985, 1984, 1987];
+
+alert(names);
+names[1] = 'Uzor';
+alert(names);
