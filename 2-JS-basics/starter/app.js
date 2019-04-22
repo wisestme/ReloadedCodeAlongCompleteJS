@@ -187,4 +187,6 @@ function yearsUntilRetirement (firstName, year, now) {
 		alert(firstName + ' is already retired')
 	}
 }
-yearsUntilRetirement('Chijioke', 1900, 2019);
+yearsUntilRetirement('Emma', 1900, 2019);
+yearsUntilRetirement('Chijioke', 1987, 2019);
+yearsUntilRetirement('Nkechi', 1990, 2019);
