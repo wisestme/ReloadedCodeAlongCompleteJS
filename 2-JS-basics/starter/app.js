@@ -106,6 +106,7 @@ switch (true) {
 }
 */
 
+/*
 // CODING CHALLENGE 2
 
 // variable declarations
@@ -167,3 +168,11 @@ if (gameDraw) {
 } else {
 	alert('Mary\'s team has won with an average score of ' + maryAverage)
 }
+*/
+
+function calculateAge (birthYear, currentYear) {
+	return currentYear - birthYear;
+}
+
+let ageChijioke = calculateAge(1987, 2019);
+alert(ageChijioke)
