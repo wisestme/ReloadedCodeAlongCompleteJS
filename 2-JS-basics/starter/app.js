@@ -192,6 +192,7 @@ yearsUntilRetirement('Chijioke', 1987, 2019);
 yearsUntilRetirement('Nkechi', 1990, 2019);
 */
 
+/*
 let whatDoYouDo = function (job, firstName) {
 	switch (job) {
 		case 'Teacher':
@@ -208,3 +209,8 @@ let whatDoYouDo = function (job, firstName) {
 }
 alert(whatDoYouDo('Programmer', 'Chijioke'));
 alert(whatDoYouDo('Teacher', 'Ayo'));
+*/
+
+// ARRAYS
+let names = ['Happiness',  'Josiah', 'Chris', 'Chijioke'];
+let years = [1988, 1985, 1984, 1987];
