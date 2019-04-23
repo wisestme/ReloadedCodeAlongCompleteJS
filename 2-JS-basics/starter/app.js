@@ -275,5 +275,7 @@ let chijioke = {
 };
 
 alert(chijioke.family);
+chijioke.job = 'Data Scientist';
+
 let x = 'job';
 alert(chijioke[x]);
