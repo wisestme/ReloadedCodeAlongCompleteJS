@@ -221,6 +221,8 @@ names[names.length] = 'Obeta'
 names.push('Nwoko');
 alert(names);
 names.unshift('Emeka');
+alert(names);
 names.pop();
 names.pop();
+names.shift();
 alert(names);
