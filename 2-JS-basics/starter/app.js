@@ -311,22 +311,32 @@ alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
 */
 let mark = {
 	firstName: 'Mark',
-	mass: '70',
-	height: 1.7,
+	mass: '60',
+	height: 1.5,
 	calcBMI: function () {
 		this.BMI = this.mass/(this.height * this.height);
+		return this.BMI;
 	}
 }
 
 mark.calcBMI();
-console.log(mark.BMI);
+//console.log(mark.BMI);
 
 let john = {
 	firstName: 'John',
-	mass: 70,
-	height: 1.5
+	mass: 60,
+	height: 1.5,
 	calcBMI: function () {
 		this.BMI = this.mass/(this.height * this.height);
+		return this.BMI;
 	}
 }
-//john.calcBMI();
+john.calcBMI();
+//console.log(john.BMI)
+if (john.BMI > mark.BMI) {
+	console.log(john.firstName + ' has a higher BMI of ' + john.BMI);
+} else if (john.BMI < mark.BMI) {
+	console.log(mark.firstName + ' has a higher BMI of ' + mark.BMI);
+} else {
+	console.log(john.firstName + ' and ' + mark.firstName + ' have equal BMIs')
+}
