@@ -240,4 +240,6 @@ function tipGiven (bill) {
 	} else {
 		tip = bill * 0.1;
 	}
+	return tip;
 }
+tipGiven(billRestaurant[0]);
