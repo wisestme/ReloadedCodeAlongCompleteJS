@@ -220,3 +220,5 @@ names[1] = 'Uzor';
 names[names.length] = 'Obeta'
 names.push('Nwoko');
 alert(names);
+names.unshift('Emeka');
+alert(names);
