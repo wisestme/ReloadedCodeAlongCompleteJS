@@ -272,7 +272,12 @@ let chijioke = {
 	family: ['Edith', 'Bethel', 'Chima', 'Enyinnaya', 'Bridget'],
 	job: 'Programmer',
 	isMarried: false,
+	calcAge: function (birthYear) {
+		return 2019 - birthYear;
+	},
 };
+
+alert(chijioke.calcAge(1987));
 
 alert(chijioke.family);
 chijioke.job = 'Data Scientist';
@@ -285,5 +290,3 @@ gloria.firstName = 'Gloria';
 gloria.lastName = 'Ugwu';
 gloria.birthYear = 1994;
 
-alert(gloria);
-alert(chijioke);
