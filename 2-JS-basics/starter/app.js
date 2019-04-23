@@ -218,4 +218,5 @@ let years = [1988, 1985, 1984, 1987];
 alert(names);
 names[1] = 'Uzor';
 names[names.length] = 'Obeta'
+names.push('Nwoko');
 alert(names);
