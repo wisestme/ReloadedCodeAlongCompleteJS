@@ -212,6 +212,7 @@ alert(whatDoYouDo('Teacher', 'Ayo'));
 */
 
 // ARRAYS
+/*
 let names = ['Happiness',  'Josiah', 'Chris', 'Chijioke'];
 let years = [1988, 1985, 1984, 1987];
 
@@ -226,3 +227,17 @@ names.pop();
 names.pop();
 names.shift();
 alert(names);
+*/
+
+let billRestaurant = [124, 48, 268];
+let tip;
+
+function tipGiven (bill) {
+	if (bill < 50) {
+		tip = bill * 0.2;
+	} else if (bill >= 50 && bill < 201) {
+		tip = bill * 0.15;
+	} else {
+		tip = bill * 0.1;
+	}
+}
