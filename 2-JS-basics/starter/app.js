@@ -268,16 +268,17 @@ alert(paidAmount);
 let chijioke = {
 	firstName: 'Chijioke',
 	lastName: 'Nwagwu',
-	birthYear: 1987,
+	birthYear: 1988,
 	family: ['Edith', 'Bethel', 'Chima', 'Enyinnaya', 'Bridget'],
 	job: 'Programmer',
 	isMarried: false,
-	calcAge: function (birthYear) {
-		return 2019 - birthYear;
+	calcAge: function () {
+		this.age = 2019 - this.birthYear;
 	},
 };
 
-alert(chijioke.calcAge(1987));
+chijioke.calcAge();
+console.log(chijioke);
 
 alert(chijioke.family);
 chijioke.job = 'Data Scientist';
