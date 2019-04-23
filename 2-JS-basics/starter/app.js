@@ -275,3 +275,5 @@ let chijioke = {
 };
 
 alert(chijioke.family);
+let x = 'job';
+alert(chijioke[x]);
