@@ -317,7 +317,6 @@ let mark = {
 		this.BMI = this.mass/(this.height * this.height);
 	}
 }
-/*
+
 mark.calcBMI();
 console.log(mark.BMI);
-*/
