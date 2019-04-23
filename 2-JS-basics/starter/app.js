@@ -245,4 +245,10 @@ function tipGiven (bill) {
 let restaurantOneTip = tipGiven(billRestaurant[0]);
 let restaurantTwoTip = tipGiven(billRestaurant[1]);
 let restaurantThreeTip = tipGiven(billRestaurant[2]);
-alert(restaurantOneTip);
+
+
+let johnTips = [restaurantOneTip,
+				restaurantTwoTip,
+				restaurantThreeTip];
+
+alert(johnTips);
