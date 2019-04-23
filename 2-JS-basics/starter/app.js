@@ -257,8 +257,8 @@ let johnTips = [restaurantOneTip,
 				restaurantThreeTip];
 
 // Total Amount paid
-let paidAmount = [restaurantOneTip + billRestaurant[0],
-				  restaurantTwoTip + billRestaurant[1],
-				  restaurantThreeTip + billRestaurant[2],]
+let paidAmount = [johnTips[0] + billRestaurant[0],
+				  johnTips[1] + billRestaurant[1],
+				  johnTips[2] + billRestaurant[2],]
 alert(johnTips);
 alert(paidAmount);
