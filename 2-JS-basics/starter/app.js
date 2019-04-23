@@ -228,7 +228,7 @@ names.pop();
 names.shift();
 alert(names);
 */
-
+/*
 // TIP CALCULATOR
 
 // Variables
@@ -262,3 +262,16 @@ let paidAmount = [johnTips[0] + billRestaurant[0],
 				  johnTips[2] + billRestaurant[2],]
 alert(johnTips);
 alert(paidAmount);
+*/
+
+//OBJECTS AND PROPERTIES
+let chijioke = {
+	firstName: 'Chijioke',
+	lastName: 'Nwagwu',
+	birthYear: 1987,
+	family: ['Edith', 'Bethel', 'Chima', 'Enyinnaya', 'Bridget'],
+	job: 'Programmer',
+	isMarried: false,
+};
+
+alert(chijioke.family);
