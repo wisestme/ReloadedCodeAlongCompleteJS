@@ -265,6 +265,7 @@ alert(paidAmount);
 */
 
 //OBJECTS AND PROPERTIES
+/*
 let chijioke = {
 	firstName: 'Chijioke',
 	lastName: 'Nwagwu',
@@ -290,4 +291,33 @@ let gloria = new Object();
 gloria.firstName = 'Gloria';
 gloria.lastName = 'Ugwu';
 gloria.birthYear = 1994;
+*/
 
+/*
+let markMass, johnMass, markHeight, johnHeight,
+	markBMI, johnBMI, isMarkBMIGreater;
+
+markHeight = 1.7;
+markMass = 70;
+johnHeight = 1.5;
+johnMass = 70;
+
+markBMI = markMass/(markHeight * markHeight);
+johnBMI = johnMass/(johnHeight * johnHeight);
+
+isMarkBMIGreater = markBMI > johnBMI;
+
+alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
+*/
+let mark = {
+	firstName: 'Mark',
+	mass: '70',
+	height: 1.7,
+	calcBMI: function () {
+		this.BMI = this.mass/(this.height * this.height);
+	}
+}
+/*
+mark.calcBMI();
+console.log(mark.BMI);
+*/
