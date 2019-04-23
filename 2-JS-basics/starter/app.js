@@ -242,4 +242,7 @@ function tipGiven (bill) {
 	}
 	return tip;
 }
-tipGiven(billRestaurant[0]);
+let restaurantOneTip = tipGiven(billRestaurant[0]);
+let restaurantTwoTip = tipGiven(billRestaurant[1]);
+let restaurantThreeTip = tipGiven(billRestaurant[2]);
+alert(restaurantOneTip);
