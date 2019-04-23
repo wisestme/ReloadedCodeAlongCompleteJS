@@ -279,3 +279,11 @@ chijioke.job = 'Data Scientist';
 
 let x = 'job';
 alert(chijioke[x]);
+
+let gloria = new Object();
+gloria.firstName = 'Gloria';
+gloria.lastName = 'Ugwu';
+gloria.birthYear = 1994;
+
+alert(gloria);
+alert(chijioke);
