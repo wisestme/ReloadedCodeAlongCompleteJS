@@ -320,3 +320,13 @@ let mark = {
 
 mark.calcBMI();
 console.log(mark.BMI);
+
+let john = {
+	firstName: 'John',
+	mass: 70,
+	height: 1.5
+	calcBMI: function () {
+		this.BMI = this.mass/(this.height * this.height);
+	}
+}
+//john.calcBMI();
