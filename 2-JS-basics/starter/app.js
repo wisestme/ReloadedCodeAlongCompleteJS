@@ -229,9 +229,13 @@ names.shift();
 alert(names);
 */
 
+// TIP CALCULATOR
+
+// Variables
 let billRestaurant = [124, 48, 268];
 let tip;
 
+// Tip calculator 
 function tipGiven (bill) {
 	if (bill < 50) {
 		tip = bill * 0.2;
@@ -242,15 +246,17 @@ function tipGiven (bill) {
 	}
 	return tip;
 }
+
 let restaurantOneTip = tipGiven(billRestaurant[0]);
 let restaurantTwoTip = tipGiven(billRestaurant[1]);
 let restaurantThreeTip = tipGiven(billRestaurant[2]);
 
-
+// Tips Array
 let johnTips = [restaurantOneTip,
 				restaurantTwoTip,
 				restaurantThreeTip];
 
+// Total Amount paid
 let paidAmount = [restaurantOneTip + billRestaurant[0],
 				  restaurantTwoTip + billRestaurant[1],
 				  restaurantThreeTip + billRestaurant[2],]
