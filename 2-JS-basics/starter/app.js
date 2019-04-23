@@ -260,4 +260,5 @@ let johnTips = [restaurantOneTip,
 let paidAmount = [restaurantOneTip + billRestaurant[0],
 				  restaurantTwoTip + billRestaurant[1],
 				  restaurantThreeTip + billRestaurant[2],]
+alert(johnTips);
 alert(paidAmount);
