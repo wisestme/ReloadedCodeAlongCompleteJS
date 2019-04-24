@@ -347,3 +347,9 @@ if (john.BMI > mark.BMI) {
 for (i = 0; i < 10; i++) {
 	console.log(i + '\) Jesus is Lord')
 }
+
+let names = ['Happiness',  'Josiah', 'Chris', 'Chijioke'];
+
+for (i = 0; i < names.length; i++) {
+	console.log(names[i]);
+}
