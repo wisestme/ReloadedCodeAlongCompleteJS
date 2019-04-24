@@ -366,8 +366,8 @@ while (i < names.length) {
 // CONTINUE AND BREAK STATEMENTS
 let names = ['Happiness',  'Josiah', 20, 'Chris', 'Chijioke'];
 for (let i = names.length-1; i >= 0; i--) {
-	/*if (typeof names[i] !== 'string') {
+	if (typeof names[i] !== 'string') {
 		continue;
-	}*/
+	}
 	console.log(names[i]);
 }
