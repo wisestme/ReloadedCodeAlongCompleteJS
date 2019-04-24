@@ -309,6 +309,7 @@ isMarkBMIGreater = markBMI > johnBMI;
 
 alert("Is Mark's BMI higher than John's? " + isMarkBMIGreater)
 */
+/*
 let mark = {
 	firstName: 'Mark',
 	mass: '60',
@@ -339,4 +340,10 @@ if (john.BMI > mark.BMI) {
 	console.log(mark.firstName + ' has a higher BMI of ' + mark.BMI);
 } else {
 	console.log(john.firstName + ' and ' + mark.firstName + ' have equal BMIs')
+}
+*/
+
+// LOOPS AND ITERATION
+for (i = 0; i < 10; i++) {
+	console.log('Jesus')
 }
