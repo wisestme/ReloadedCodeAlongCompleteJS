@@ -344,7 +344,7 @@ if (john.BMI > mark.BMI) {
 */
 
 // LOOPS AND ITERATION
-for (let i = 0; i < 10; i++) {
+/*for (let i = 0; i < 10; i++) {
 	console.log(i + '\) Jesus is Lord')
 }
 
@@ -359,4 +359,15 @@ let i = 0;
 while (i < names.length) {
 	console.log(names[i]);
 	i++;
+}
+*/
+
+
+// CONTINUE AND BREAK STATEMENTS
+let names = ['Happiness',  'Josiah', 20, 'Chris', 'Chijioke'];
+for (let i = names.length-1; i >= 0; i--) {
+	/*if (typeof names[i] !== 'string') {
+		continue;
+	}*/
+	console.log(names[i]);
 }
