@@ -345,5 +345,5 @@ if (john.BMI > mark.BMI) {
 
 // LOOPS AND ITERATION
 for (i = 0; i < 10; i++) {
-	console.log('Jesus')
+	console.log(i + '\) Jesus is Lord')
 }
