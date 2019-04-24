@@ -344,12 +344,19 @@ if (john.BMI > mark.BMI) {
 */
 
 // LOOPS AND ITERATION
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
 	console.log(i + '\) Jesus is Lord')
 }
 
 let names = ['Happiness',  'Josiah', 'Chris', 'Chijioke'];
 
-for (i = 0; i < names.length; i++) {
+for (let i = 0; i < names.length; i++) {
 	console.log(names[i]);
+}
+
+// WHILE LOOP
+let i = 0;
+while (i < names.length) {
+	console.log(names[i]);
+	i++;
 }
