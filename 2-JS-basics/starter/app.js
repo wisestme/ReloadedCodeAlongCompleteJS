@@ -457,8 +457,8 @@ tipGiven: 0,
 tip: 0,
 	
 bills: [77, 375, 110, 45],// Array
-// // Tip Calculator Method
-//  calcTip: function () {
+// Tip Calculator Method
+calcTip: function () {
 // // condition to loop through bills []
 //   		for (i = 0; i < this.bills.length; i++) {
 //  	// set tip
@@ -479,7 +479,7 @@ bills: [77, 375, 110, 45],// Array
 //   		}
 //  	console.log(markTips);
 //  	console.log(markPaidAmounts);
-//   	}
+   	}
 };
 
 //  markTip.calcTip();
