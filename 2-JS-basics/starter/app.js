@@ -401,11 +401,11 @@ console.log(tip);*/
 
 // CODE CHALLENGE
  // variables
-let paidAmounts = [];
+let johnPaidAmounts = [];
 let paid;
 let tipGiven;
 let tip;
-let tips = [];
+let johnTips = [];
 
 // // Object
 let johnTip = {
@@ -425,14 +425,14 @@ calcTip: function () {
  			}
 			
  			tipGiven = this.bills[i] * tip;
-			tips.push(tipGiven);
+			johnTips.push(tipGiven);
 			
-			paid = this.bills[i] + tips[i];
- 			paidAmounts.push(paid);
+			paid = this.bills[i] + johnTips[i];
+ 			johnPaidAmounts.push(paid);
  		}
-	console.log(tips);
-	console.log(paidAmounts);
+	console.log(johnTips);
+	console.log(johnPaidAmounts);
  	}
 };
 
- johnTip.calcTip();
+johnTip.calcTip();
