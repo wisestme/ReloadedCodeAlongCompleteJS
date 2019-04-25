@@ -452,9 +452,9 @@ let markTips = [];
 // Object
 let markTip = {
 	
-// paid: 0,
-// tipGiven: 0,
-// tip: 0,
+paid: 0,
+tipGiven: 0,
+tip: 0,
 	
 // bills: [77, 375, 110, 45],// Array
 // // Tip Calculator Method
