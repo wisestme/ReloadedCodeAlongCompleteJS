@@ -364,10 +364,75 @@ while (i < names.length) {
 
 
 // CONTINUE AND BREAK STATEMENTS
-let names = ['Happiness',  'Josiah', 20, 'Chris', 'Chijioke'];
+/*let names = ['Happiness',  'Josiah', 20, 'Chris', 'Chijioke'];
 for (let i = names.length-1; i >= 0; i--) {
 	if (typeof names[i] !== 'string') {
 		continue;
 	}
 	console.log(names[i]);
+}*/
+/*let tip = [];
+let johnTip = {
+	bills: [124, 48, 268, 180, 42],
+	calcTip: function () {
+		
+		for (i = 0; i < this.bills.length - 1; i++) {
+			if (this.bills[i] < 50) {
+				tip[i] = this.bills[i] * 0.2;
+				//console.log(tip[i])
+			} else if ((this.bills[i] >= 50) && (this.bills[i] < 201)) {
+				tip[i] = this.bills[i] * 0.15;
+				//console.log(tip[i])
+			} else if (this.bills[i] > 200) {
+				tip[i] = this.bills[i] * 0.10;
+			}
+			tip.push(tip[i]);
+		}
+	}
+};
+//console.log(tip[i])
+johnTip.calcTip();
+/*for(i = 0; i < johnTip.bills.length - 1; i++){
+	
 }
+
+
+console.log(tip);*/
+
+// CODE CHALLENGE
+ // variables
+let paidAmounts = [];
+let paid;
+let tipGiven;
+let tip;
+let tips = [];
+
+// // Object
+// let johnTip = {
+// 	bills: [124, 48, 268, 180, 42],// Array
+// 	//Method
+// 	calcTip: function () {
+// 		// loop through
+// 		for (i = 0; i < this.bills.length; i++) {
+// 			// set tip
+// 			if (this.bills[i] < 50) {
+// 				tip =  0.2;
+// 			} else if ((this.bills[i] >= 50) && (this.bills[i] < 201)) {
+// 				tip = 0.15;
+// 				//console.log(tip[i])
+// 			} else if (this.bills[i] > 200) {
+// 				tip = 0.10;
+// 			}
+			
+// 			tipGiven = this.bills[i] * tip;
+// 			tips.push(tipGiven);
+			
+// 			paid = this.bills[i] + tips[i];
+// 			paidAmounts.push(paid);
+// 		}
+// 		console.log(tips);
+// 		console.log(paidAmounts);
+// 	}
+// };
+
+// johnTip.calcTip();
