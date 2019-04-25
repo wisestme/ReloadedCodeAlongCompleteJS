@@ -459,8 +459,8 @@ tip: 0,
 bills: [77, 375, 110, 45],// Array
 // Tip Calculator Method
 calcTip: function () {
-// // condition to loop through bills []
-//   		for (i = 0; i < this.bills.length; i++) {
+// condition to loop through bills []
+   		for (i = 0; i < this.bills.length; i++) {
 //  	// set tip
 // 			if (this.bills[i] < 100) {
 //   				tip =  0.2;
@@ -476,7 +476,7 @@ calcTip: function () {
 			
 //  			paid = this.bills[i] + markTips[i];
 //   			markPaidAmounts.push(paid);
-//   		}
+   		}
 //  	console.log(markTips);
 //  	console.log(markPaidAmounts);
    	}
