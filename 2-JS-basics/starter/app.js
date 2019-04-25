@@ -400,15 +400,21 @@ johnTip.calcTip();
 console.log(tip);*/
 
 // CODE CHALLENGE
+// JOHN'S TIP CALCULATOR
  // variables
 let johnPaidAmounts = [];
-let paid;
-let tipGiven;
-let tip;
+// let paid;
+// let tipGiven;
+// let tip;
 let johnTips = [];
 
 // // Object
 let johnTip = {
+	
+	paid: 0,
+	tipGiven: 0,
+	tip: 0,
+	
  	bills: [124, 48, 268, 180, 42],// Array
 	// Tip Calculator Method
 calcTip: function () {
@@ -436,3 +442,45 @@ calcTip: function () {
 };
 
 johnTip.calcTip();
+
+// MARK'S TIP CALCULATOR
+
+ // variables
+let markPaidAmounts = [];
+let markTips = [];
+
+// // Object
+// let markTip = {
+	
+// paid: 0,
+// tipGiven: 0,
+// tip: 0,
+	
+// bills: [77, 375, 110, 45],// Array
+// // Tip Calculator Method
+//  calcTip: function () {
+// // condition to loop through bills []
+//   		for (i = 0; i < this.bills.length; i++) {
+//  	// set tip
+// 			if (this.bills[i] < 100) {
+//   				tip =  0.2;
+//   			} else if ((this.bills[i] >= 100) && (this.bills[i] < 301)) {
+//   				tip = 0.1;
+//   				//console.log(tip[i])
+//   			} else if (this.bills[i] > 300) {
+//   				tip = 0.25;
+//   			}
+			
+//   			tipGiven = this.bills[i] * tip;
+//  			markTips.push(tipGiven);
+			
+//  			paid = this.bills[i] + markTips[i];
+//   			markPaidAmounts.push(paid);
+//   		}
+//  	console.log(markTips);
+//  	console.log(markPaidAmounts);
+//   	}
+// };
+
+//  markTip.calcTip();
+
