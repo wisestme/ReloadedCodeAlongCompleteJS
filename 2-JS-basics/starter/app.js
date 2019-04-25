@@ -408,7 +408,7 @@ let tip;
 let tips = [];
 
 // // Object
-// let johnTip = {
+let johnTip = {
 // 	bills: [124, 48, 268, 180, 42],// Array
 // 	//Method
 // 	calcTip: function () {
@@ -433,6 +433,6 @@ let tips = [];
 // 		console.log(tips);
 // 		console.log(paidAmounts);
 // 	}
-// };
+};
 
 // johnTip.calcTip();
