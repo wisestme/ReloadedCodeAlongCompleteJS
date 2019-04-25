@@ -462,14 +462,14 @@ calcTip: function () {
 // condition to loop through bills []
    		for (i = 0; i < this.bills.length; i++) {
 //  	// set tip
-// 			if (this.bills[i] < 100) {
-//   				tip =  0.2;
-//   			} else if ((this.bills[i] >= 100) && (this.bills[i] < 301)) {
-//   				tip = 0.1;
+ 			if (this.bills[i] < 100) {
+  				tip =  0.2;
+	   			} else if ((this.bills[i] >= 100) && (this.bills[i] < 301)) {
+   				tip = 0.1;
 //   				//console.log(tip[i])
-//   			} else if (this.bills[i] > 300) {
-//   				tip = 0.25;
-//   			}
+   			} else if (this.bills[i] > 300) {
+   				tip = 0.25;
+   			}
 			
 //   			tipGiven = this.bills[i] * tip;
 //  			markTips.push(tipGiven);
