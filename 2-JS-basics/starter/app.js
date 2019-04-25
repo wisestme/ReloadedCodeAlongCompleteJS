@@ -482,5 +482,5 @@ calcTip: function () {
    	}
 };
 
-//  markTip.calcTip();
+  markTip.calcTip();
 
