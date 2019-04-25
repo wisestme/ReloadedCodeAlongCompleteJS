@@ -456,7 +456,7 @@ paid: 0,
 tipGiven: 0,
 tip: 0,
 	
-// bills: [77, 375, 110, 45],// Array
+bills: [77, 375, 110, 45],// Array
 // // Tip Calculator Method
 //  calcTip: function () {
 // // condition to loop through bills []
