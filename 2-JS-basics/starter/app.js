@@ -472,7 +472,7 @@ calcTip: function () {
    			}
 			
    			tipGiven = this.bills[i] * tip;
-//  			markTips.push(tipGiven);
+  			markTips.push(tipGiven);
 			
 //  			paid = this.bills[i] + markTips[i];
 //   			markPaidAmounts.push(paid);
