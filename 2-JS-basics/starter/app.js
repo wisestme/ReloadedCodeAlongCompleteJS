@@ -435,4 +435,4 @@ calcTip: function () {
  	}
 };
 
-// johnTip.calcTip();
+ johnTip.calcTip();
