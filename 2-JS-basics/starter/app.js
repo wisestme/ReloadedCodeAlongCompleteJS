@@ -414,15 +414,15 @@ let johnTip = {
 calcTip: function () {
 	// condition to loop through bills []
  		for (i = 0; i < this.bills.length; i++) {
-// 			// set tip
-// 			if (this.bills[i] < 50) {
-// 				tip =  0.2;
-// 			} else if ((this.bills[i] >= 50) && (this.bills[i] < 201)) {
-// 				tip = 0.15;
-// 				//console.log(tip[i])
-// 			} else if (this.bills[i] > 200) {
-// 				tip = 0.10;
-// 			}
+	// set tip
+			if (this.bills[i] < 50) {
+ 				tip =  0.2;
+ 			} else if ((this.bills[i] >= 50) && (this.bills[i] < 201)) {
+ 				tip = 0.15;
+ 				//console.log(tip[i])
+ 			} else if (this.bills[i] > 200) {
+ 				tip = 0.10;
+ 			}
 			
 // 			tipGiven = this.bills[i] * tip;
 // 			tips.push(tipGiven);
