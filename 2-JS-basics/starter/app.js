@@ -430,7 +430,7 @@ calcTip: function () {
 // 			paid = this.bills[i] + tips[i];
 // 			paidAmounts.push(paid);
  		}
-// 		console.log(tips);
+	console.log(tips);
 // 		console.log(paidAmounts);
  	}
 };
