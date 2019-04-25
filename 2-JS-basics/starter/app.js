@@ -410,10 +410,10 @@ let tips = [];
 // // Object
 let johnTip = {
  	bills: [124, 48, 268, 180, 42],// Array
-// 	//Method
+	// Tip Calculator Method
 calcTip: function () {
-// 		// loop through
-// 		for (i = 0; i < this.bills.length; i++) {
+	// condition to loop through bills []
+ 		for (i = 0; i < this.bills.length; i++) {
 // 			// set tip
 // 			if (this.bills[i] < 50) {
 // 				tip =  0.2;
@@ -429,7 +429,7 @@ calcTip: function () {
 			
 // 			paid = this.bills[i] + tips[i];
 // 			paidAmounts.push(paid);
-// 		}
+ 		}
 // 		console.log(tips);
 // 		console.log(paidAmounts);
  	}
