@@ -431,7 +431,7 @@ calcTip: function () {
  			paidAmounts.push(paid);
  		}
 	console.log(tips);
-// 		console.log(paidAmounts);
+	console.log(paidAmounts);
  	}
 };
 
