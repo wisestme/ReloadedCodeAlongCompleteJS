@@ -449,8 +449,8 @@ johnTip.calcTip();
 let markPaidAmounts = [];
 let markTips = [];
 
-// // Object
-// let markTip = {
+// Object
+let markTip = {
 	
 // paid: 0,
 // tipGiven: 0,
@@ -480,7 +480,7 @@ let markTips = [];
 //  	console.log(markTips);
 //  	console.log(markPaidAmounts);
 //   	}
-// };
+};
 
 //  markTip.calcTip();
 
