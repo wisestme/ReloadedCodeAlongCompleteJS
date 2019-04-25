@@ -478,7 +478,7 @@ calcTip: function () {
   			markPaidAmounts.push(paid);
    		}
   	console.log(markTips);
-//  	console.log(markPaidAmounts);
+  	console.log(markPaidAmounts);
    	}
 };
 
