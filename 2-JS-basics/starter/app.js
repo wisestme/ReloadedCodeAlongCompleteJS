@@ -409,7 +409,7 @@ let tips = [];
 
 // // Object
 let johnTip = {
-// 	bills: [124, 48, 268, 180, 42],// Array
+ 	bills: [124, 48, 268, 180, 42],// Array
 // 	//Method
 // 	calcTip: function () {
 // 		// loop through
