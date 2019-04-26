@@ -490,9 +490,9 @@ function averageTips () {
 let johnSumTips = 0;
 let markSumTips = 0;
 let johnAverageTips;
-// 	for (let i = 0; i < markTips.length; i++){
-// 		markSumTips = markSumTips + markTips[i];
-// 	}
+ 	for (let i = 0; i < markTips.length; i++){
+ 		markSumTips = markSumTips + markTips[i];
+ 	}
 // 	for (let i = 0; i < johnTips.length; i++){
 // 		johnSumTips = johnSumTips + johnTips[i];
 		
