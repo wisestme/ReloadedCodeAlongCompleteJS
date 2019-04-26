@@ -496,8 +496,8 @@ let johnAverageTips;
  	for (let i = 0; i < johnTips.length; i++){
  		johnSumTips = johnSumTips + johnTips[i];
 		
-// 	}
-// 	johnAverageTips = johnSumTips/johnTips.length;
+ 	}
+ 	johnAverageTips = johnSumTips/johnTips.length;
 // 	markAverageTips = markSumTips/markTips.length;
 // 	console.log(markAverageTips);
 // 	if (johnAverageTips !== markAverageTips) {
