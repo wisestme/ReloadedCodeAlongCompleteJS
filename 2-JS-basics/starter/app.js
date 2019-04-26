@@ -483,4 +483,30 @@ calcTip: function () {
 };
 
   markTip.calcTip();
+  //console.log(markTips);
 
+ // CALCULATE HIGHEST TIP FAMILY
+// function averageTips () {
+// 	let johnSumTips = 0;
+// 	let markSumTips = 0;
+// 	let johnAverageTips;
+// 	for (let i = 0; i < markTips.length; i++){
+// 		markSumTips = markSumTips + markTips[i];
+// 	}
+// 	for (let i = 0; i < johnTips.length; i++){
+// 		johnSumTips = johnSumTips + johnTips[i];
+		
+// 	}
+// 	johnAverageTips = johnSumTips/johnTips.length;
+// 	markAverageTips = markSumTips/markTips.length;
+// 	console.log(markAverageTips);
+// 	if (johnAverageTips !== markAverageTips) {
+// 		if(johnAverageTips > markAverageTips) {
+// 			console.log('john\'s family paid the highest tips');
+// 		} else {
+// 			console.log('mark\'s family paid the highest tips');
+// 		}
+// 	}
+// }
+
+// averageTips();
