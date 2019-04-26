@@ -509,4 +509,4 @@ let johnAverageTips;
  	}
 }
 
-// averageTips();
+ averageTips();
