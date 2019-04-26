@@ -486,10 +486,10 @@ calcTip: function () {
   //console.log(markTips);
 
  // CALCULATE HIGHEST TIP FAMILY
-// function averageTips () {
-// 	let johnSumTips = 0;
-// 	let markSumTips = 0;
-// 	let johnAverageTips;
+function averageTips () {
+let johnSumTips = 0;
+let markSumTips = 0;
+let johnAverageTips;
 // 	for (let i = 0; i < markTips.length; i++){
 // 		markSumTips = markSumTips + markTips[i];
 // 	}
@@ -507,6 +507,6 @@ calcTip: function () {
 // 			console.log('mark\'s family paid the highest tips');
 // 		}
 // 	}
-// }
+}
 
 // averageTips();
