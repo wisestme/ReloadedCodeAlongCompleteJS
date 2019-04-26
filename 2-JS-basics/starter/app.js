@@ -500,13 +500,13 @@ let johnAverageTips;
  	johnAverageTips = johnSumTips/johnTips.length;
  	markAverageTips = markSumTips/markTips.length;
 // 	console.log(markAverageTips);
-// 	if (johnAverageTips !== markAverageTips) {
-// 		if(johnAverageTips > markAverageTips) {
-// 			console.log('john\'s family paid the highest tips');
-// 		} else {
-// 			console.log('mark\'s family paid the highest tips');
-// 		}
-// 	}
+ 	if (johnAverageTips !== markAverageTips) {
+ 		if(johnAverageTips > markAverageTips) {
+ 			console.log('john\'s family paid the highest tips');
+ 		} else {
+ 			console.log('mark\'s family paid the highest tips');
+ 		}
+ 	}
 }
 
 // averageTips();
