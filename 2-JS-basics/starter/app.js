@@ -498,7 +498,7 @@ let johnAverageTips;
 		
  	}
  	johnAverageTips = johnSumTips/johnTips.length;
-// 	markAverageTips = markSumTips/markTips.length;
+ 	markAverageTips = markSumTips/markTips.length;
 // 	console.log(markAverageTips);
 // 	if (johnAverageTips !== markAverageTips) {
 // 		if(johnAverageTips > markAverageTips) {
