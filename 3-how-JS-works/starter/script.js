@@ -31,21 +31,36 @@ let age = 32;*/
 
 ///////////////////////////////////////
 // Lecture: Scoping
-var a = 'hello!';
+// var a = 'hello!';
+// first();
+
+// function first() {
+//     var b = 'Hi!';
+//     second();
+
+//     function second () {
+//     var c = 'Hey!';
+//     console.log(a + b + c);
+// } 
+// }
+
+let a = 'Hello!';
 first();
 
 function first() {
-    var b = 'Hi!';
+    let b = 'Hi!';
     second();
 
     function second () {
-    var c = 'Hey!';
-    console.log(a + b + c);
-} 
+        let c = 'Hey!';
+        third();
+    }
 }
 
-
-
+function third () {
+    let d = 'John';
+    console.log(c);
+}
 // First scoping example
 
 /*
