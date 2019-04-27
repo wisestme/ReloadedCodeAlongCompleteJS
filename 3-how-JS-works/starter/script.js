@@ -6,11 +6,11 @@ function calculateAge (year) {
     console.log(2019 - year);
 }
 
-retirement(1987);
+
 let retirement = function (year) {
     console.log(65 - (2019 - year));
 }
-
+retirement(1987);
 
 
 
