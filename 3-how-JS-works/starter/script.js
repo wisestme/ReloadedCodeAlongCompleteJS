@@ -15,8 +15,9 @@ retirement(1987);
 
 // VARIABLES
 
-let age = 32;
 console.log(age);
+let age = 32;
+
 
 
 
