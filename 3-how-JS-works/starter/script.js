@@ -109,13 +109,20 @@ function third() {
 
 //console.log(this);
 
-calculateAge(1987);
+/*calculateAge(1987);
 function calculateAge(year) {
     console.log(2019 - year);
     console.log(this);
+}*/
+
+const john = {
+    name: 'John',
+    yearOfBirth: 1987,
+    calculateAge: function() {
+        console.log(this);
+    }
 }
 
-
-
+john.calculateAge();
 
 
