@@ -120,6 +120,7 @@ const john = {
     yearOfBirth: 1987,
     calculateAge: function() {
         console.log(this);
+        console.log(2019 - this.yearOfBirth);
     }
 }
 
