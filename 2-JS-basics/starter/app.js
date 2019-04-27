@@ -403,9 +403,6 @@ console.log(tip);*/
 // JOHN'S TIP CALCULATOR
  // variables
 let johnPaidAmounts = [];
-// let paid;
-// let tipGiven;
-// let tip;
 let johnTips = [];
 
 // // Object
