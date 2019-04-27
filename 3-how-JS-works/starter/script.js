@@ -1,6 +1,6 @@
 ///////////////////////////////////////
 // Lecture: Hoisting
-
+// FUNCTIONS
 calculateAge(1989);
 function calculateAge (year) {
     console.log(2019 - year);
@@ -13,7 +13,10 @@ let retirement = function (year) {
 retirement(1987);
 
 
+// VARIABLES
 
+let age = 32;
+console.log(age);
 
 
 
