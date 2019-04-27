@@ -122,13 +122,20 @@ const john = {
         console.log(this);
         console.log(2019 - this.yearOfBirth);
 
-        function innerFunction() {
+        /*function innerFunction() {
             console.log(this);
         }
-        innerFunction();
+        innerFunction();*/
     }
-}
+};
 
 john.calculateAge();
 
+const mike = {
+    name: 'Mike',
+    yearOfBirth: 1985,
+};
 
+// Method borrowing
+mike.calculateAge = john.calculateAge;
+mike.calculateAge();
