@@ -121,6 +121,11 @@ const john = {
     calculateAge: function() {
         console.log(this);
         console.log(2019 - this.yearOfBirth);
+
+        function innerFunction() {
+            console.log(this);
+        }
+        innerFunction();
     }
 }
 
