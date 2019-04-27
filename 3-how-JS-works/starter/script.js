@@ -44,7 +44,7 @@ let age = 32;*/
 // } 
 // }
 
-let a = 'Hello!';
+/*let a = 'Hello!';
 first();
 
 function first() {
@@ -60,7 +60,7 @@ function first() {
 function third () {
     let d = 'John';
     console.log(c);
-}
+}*/
 // First scoping example
 
 /*
@@ -107,7 +107,7 @@ function third() {
 ///////////////////////////////////////
 // Lecture: The this keyword
 
-
+console.log(this);
 
 
 
