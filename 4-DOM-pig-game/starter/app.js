@@ -25,4 +25,8 @@ document.querySelector('.dice').style.display = 'none'
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	dice = Math.floor(Math.random() * 6) + 1;
 	document.querySelector('#current-' + activePlayer).textContent = dice;
+
+	// Display dice image
+	let diceDOM = document.querySelector('.dice');
+	diceDOM.style.display = 'block';
 })
