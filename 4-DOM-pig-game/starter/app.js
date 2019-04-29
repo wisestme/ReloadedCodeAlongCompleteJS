@@ -20,14 +20,30 @@ activePlayer = 0;
 
 let x = document.querySelector('#score-0').textContent;
 
+// Hide the dice image
 document.querySelector('.dice').style.display = 'none'
 
+// Set all score values to 0
+document.querySelector('#score-0').textContent = '0';
+document.querySelector('#current-0').textContent = '0';
+document.querySelector('#score-1').textContent = '0';
+document.querySelector('#current-0').textContent = '0';
+
+// Roll dice event listener
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	dice = Math.floor(Math.random() * 6) + 1;
-	document.querySelector('#current-' + activePlayer).textContent = dice;
+	
 
 	// Display dice image
 	let diceDOM = document.querySelector('.dice');
 	diceDOM.style.display = 'block';
 	diceDOM.src = 'dice-' + dice + '.png'
-})
+
+	// if rolled number is not a 1, update round score
+	if (dice !== 1) {
+		roundScore += dice;
+		document.querySelector('#current-' + activePlayer).textContent = roundScore;
+	} else {
+
+	}
+});
