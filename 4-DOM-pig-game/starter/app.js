@@ -21,4 +21,4 @@ document.querySelector('#current-' + activePlayer).textContent = dice;
 
 let x = document.querySelector('#score-0').textContent;
 
-
+document.querySelector('.dice').style.display = 'none'
