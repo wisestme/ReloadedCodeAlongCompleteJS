@@ -29,4 +29,5 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	// Display dice image
 	let diceDOM = document.querySelector('.dice');
 	diceDOM.style.display = 'block';
+	diceDOM.src = 'dice-' + dice + '.png'
 })
