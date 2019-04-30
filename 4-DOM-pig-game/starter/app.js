@@ -44,12 +44,16 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		roundScore += dice;
 		document.querySelector('#current-' + activePlayer).textContent = roundScore;
 	} else {
+		// toggle active class for active player
 		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
+
 		roundScore = 0;
 		document.querySelector('#current-' + activePlayer).textContent = roundScore;
 		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
 		document.querySelector('#current-' + activePlayer).textContent = roundScore;
+
+		// toggle active class for active player
 		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
 	}
