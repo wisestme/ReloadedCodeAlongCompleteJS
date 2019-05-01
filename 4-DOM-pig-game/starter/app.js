@@ -65,5 +65,5 @@ let holdBtn = document.querySelector('.btn-hold');
 
 holdBtn.addEventListener('click', function() {
 currentScore = document.querySelector('#current-' + activePlayer);
-
+totalScore = document.querySelector('score-' + activePlayer);
 });
