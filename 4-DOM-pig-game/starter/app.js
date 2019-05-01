@@ -58,3 +58,10 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		nowPlaying.classList.toggle('active');
 	}
 });
+
+// Hold event listener implementation
+let holdBtn = document.querySelector('.btn-hold');
+
+holdBtn.addEventListener('click', function() {
+
+});
