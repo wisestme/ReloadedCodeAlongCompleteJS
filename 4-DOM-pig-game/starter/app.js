@@ -70,7 +70,7 @@ let holdBtn = document.querySelector('.btn-hold');
 
 holdBtn.addEventListener('click', function() {
 latestScore = parseInt(document.querySelector('#current-' + activePlayer).textContent);
-// totalScore = document.querySelector('#score-' + activePlayer);
+totalScore = document.querySelector('#score-' + activePlayer);
 // newScore += latestScore;
 // totalScore.textContent = newScore;
 
