@@ -70,24 +70,24 @@ let holdBtn = document.querySelector('.btn-hold');
 
 holdBtn.addEventListener('click', function() {
 latestScore = parseInt(document.querySelector('#current-' + activePlayer).textContent);
-totalScore = document.querySelector('#score-' + activePlayer);
-newScore += latestScore;
-totalScore.textContent = newScore;
+// totalScore = document.querySelector('#score-' + activePlayer);
+// newScore += latestScore;
+// totalScore.textContent = newScore;
 
-// if rolled number is not a 1, update round score
+// // if rolled number is not a 1, update round score
 	
-		// toggle active class for active player
-		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
-		nowPlaying.classList.toggle('active');
+// 		// toggle active class for active player
+// 		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
+// 		nowPlaying.classList.toggle('active');
 
-		roundScore = 0;
-		currentScore.textContent = roundScore;
-		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
-		currentScore.textContent = roundScore;
+// 		roundScore = 0;
+// 		currentScore.textContent = roundScore;
+// 		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
+// 		currentScore.textContent = roundScore;
 
-		// toggle active class for active player
-		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
-		nowPlaying.classList.toggle('active');
+// 		// toggle active class for active player
+// 		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
+// 		nowPlaying.classList.toggle('active');
 	
 
 });
