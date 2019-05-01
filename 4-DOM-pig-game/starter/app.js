@@ -71,8 +71,8 @@ let holdBtn = document.querySelector('.btn-hold');
 holdBtn.addEventListener('click', function() {
 latestScore = parseInt(document.querySelector('#current-' + activePlayer).textContent);
 totalScore = document.querySelector('#score-' + activePlayer);
-// newScore += latestScore;
-// totalScore.textContent = newScore;
+newScore += latestScore;
+totalScore.textContent = newScore;
 
 // // if rolled number is not a 1, update round score
 	
