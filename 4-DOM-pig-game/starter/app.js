@@ -95,6 +95,7 @@ aggregateScore = parseInt(totalScore.textContent);
 
   		roundScore = 0;
   		newScore = 0;
+  		diceDOM.style.display = 'block';
  		
 	
 
