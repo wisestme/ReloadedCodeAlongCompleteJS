@@ -80,7 +80,7 @@ totalScore = document.querySelector('#score-' + activePlayer);
  //totalScore.textContent += newScore;
 aggregateScore = parseInt(totalScore.textContent);
  	aggregateScore += newScore;
-// 	totalScore.textContent = aggregateScore;
+ 	totalScore.textContent = aggregateScore;
 // // toggle active class for active player
 //  		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 //  		nowPlaying.classList.toggle('active');
