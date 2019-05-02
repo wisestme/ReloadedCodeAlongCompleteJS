@@ -94,7 +94,7 @@ aggregateScore = parseInt(totalScore.textContent);
 //  		nowPlaying.classList.toggle('active');
 
   		roundScore = 0;
-//  		newScore = 0;
+  		newScore = 0;
  		
 	
 
