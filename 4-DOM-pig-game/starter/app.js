@@ -76,10 +76,10 @@ holdBtn.addEventListener('click', function() {
 latestScore = document.querySelector('#current-' + activePlayer);
 nowScore = parseInt(latestScore.textContent);
 totalScore = document.querySelector('#score-' + activePlayer);
-// newScore += nowScore;
+ newScore += nowScore;
  //totalScore.textContent += newScore;
 aggregateScore = parseInt(totalScore.textContent);
-// 	aggregateScore += newScore;
+ 	aggregateScore += newScore;
 // 	totalScore.textContent = aggregateScore;
 // // toggle active class for active player
 //  		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
