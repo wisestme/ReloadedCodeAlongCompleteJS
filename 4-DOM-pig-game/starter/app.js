@@ -74,7 +74,7 @@ holdBtn.addEventListener('click', function() {
 
 
 latestScore = document.querySelector('#current-' + activePlayer);
-// nowScore = parseInt(latestScore.textContent);
+nowScore = parseInt(latestScore.textContent);
 // totalScore = document.querySelector('#score-' + activePlayer);
 // newScore += nowScore;
 // //totalScore.textContent += newScore;
