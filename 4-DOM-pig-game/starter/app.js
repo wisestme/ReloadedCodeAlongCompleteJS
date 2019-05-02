@@ -74,27 +74,27 @@ holdBtn.addEventListener('click', function() {
 
 
 latestScore = document.querySelector('#current-' + activePlayer);
-nowScore = parseInt(latestScore.textContent);
-totalScore = document.querySelector('#score-' + activePlayer);
-newScore += nowScore;
-//totalScore.textContent += newScore;
-	aggregateScore = parseInt(totalScore.textContent);
-	aggregateScore += newScore;
-	totalScore.textContent = aggregateScore;
-// toggle active class for active player
- 		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
- 		nowPlaying.classList.toggle('active');
+// nowScore = parseInt(latestScore.textContent);
+// totalScore = document.querySelector('#score-' + activePlayer);
+// newScore += nowScore;
+// //totalScore.textContent += newScore;
+// 	aggregateScore = parseInt(totalScore.textContent);
+// 	aggregateScore += newScore;
+// 	totalScore.textContent = aggregateScore;
+// // toggle active class for active player
+//  		let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
+//  		nowPlaying.classList.toggle('active');
 
  		
- 		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
+//  		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
  		
 
- 		// toggle active class for active player
- 		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
- 		nowPlaying.classList.toggle('active');
+//  		// toggle active class for active player
+//  		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
+//  		nowPlaying.classList.toggle('active');
 
- 		roundScore = 0;
- 		newScore = 0;
+//  		roundScore = 0;
+//  		newScore = 0;
  		
 	
 
