@@ -78,7 +78,7 @@ nowScore = parseInt(latestScore.textContent);
 totalScore = document.querySelector('#score-' + activePlayer);
 // newScore += nowScore;
  //totalScore.textContent += newScore;
-// 	aggregateScore = parseInt(totalScore.textContent);
+aggregateScore = parseInt(totalScore.textContent);
 // 	aggregateScore += newScore;
 // 	totalScore.textContent = aggregateScore;
 // // toggle active class for active player
