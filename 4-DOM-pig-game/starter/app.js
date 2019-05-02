@@ -93,7 +93,7 @@ aggregateScore = parseInt(totalScore.textContent);
 //  		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 //  		nowPlaying.classList.toggle('active');
 
-//  		roundScore = 0;
+  		roundScore = 0;
 //  		newScore = 0;
  		
 	
