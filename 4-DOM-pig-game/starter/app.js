@@ -99,13 +99,13 @@ aggregateScore = parseInt(totalScore.textContent);
   		document.querySelector('.dice').style.display = 'none';
 
   		let winner;
-//let player = document.querySelector('#name-' + activePlayer);
-if (aggregateScore >= 100) {
-	winner = 'Player ' + (1 + activePlayer);
-	alert(winner  + 'wins');
-	document.querySelector('.dice').style.display = 'none';
-	holdBtn.style.display = 'none';
-	document.querySelector('.btn-roll').style.display = 'none';
-}
+ //let player = document.querySelector('#name-' + activePlayer);
+ if (aggregateScore >= 100) {
+// 	winner = 'Player ' + (1 + activePlayer);
+// 	alert(winner  + 'wins');
+// 	document.querySelector('.dice').style.display = 'none';
+// 	holdBtn.style.display = 'none';
+// 	document.querySelector('.btn-roll').style.display = 'none';
+ }
 });
 
