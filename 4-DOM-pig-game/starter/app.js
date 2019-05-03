@@ -101,7 +101,7 @@ aggregateScore = parseInt(totalScore.textContent);
   		let winner;
  //let player = document.querySelector('#name-' + activePlayer);
  if (aggregateScore >= 100) {
-// 	winner = 'Player ' + (1 + activePlayer);
+ 	winner = 'Player ' + (1 + activePlayer);
 // 	alert(winner  + 'wins');
 // 	document.querySelector('.dice').style.display = 'none';
 // 	holdBtn.style.display = 'none';
