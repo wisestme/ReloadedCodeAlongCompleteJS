@@ -105,7 +105,7 @@ aggregateScore = parseInt(totalScore.textContent);
  	alert(winner  + 'wins');
  	document.querySelector('.dice').style.display = 'none';
  	holdBtn.style.display = 'none';
-// 	document.querySelector('.btn-roll').style.display = 'none';
+ 	document.querySelector('.btn-roll').style.display = 'none';
  }
 });
 
