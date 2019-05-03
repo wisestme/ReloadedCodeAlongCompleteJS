@@ -72,12 +72,13 @@ let holdBtn = document.querySelector('.btn-hold');
 
 holdBtn.addEventListener('click', function() {
 
-
+// Get round score
 latestScore = document.querySelector('#current-' + activePlayer);
 nowScore = parseInt(latestScore.textContent);
+// Update total score
 totalScore = document.querySelector('#score-' + activePlayer);
  newScore += nowScore;
- //totalScore.textContent += newScore;
+ 
 aggregateScore = parseInt(totalScore.textContent);
  	aggregateScore += newScore;
  	totalScore.textContent = aggregateScore;
@@ -95,8 +96,16 @@ aggregateScore = parseInt(totalScore.textContent);
 
   		roundScore = 0;
   		newScore = 0;
-  		diceDOM.style.display = 'block';
- 		
-	
+  		document.querySelector('.dice').style.display = 'none';
 
+  		let winner;
+//let player = document.querySelector('#name-' + activePlayer);
+if (aggregateScore >= 100) {
+	winner = 'Player ' + (1 + activePlayer);
+	alert(winner  + 'wins');
+	document.querySelector('.dice').style.display = 'none';
+	holdBtn.style.display = 'none';
+	document.querySelector('.btn-roll').style.display = 'none';
+}
 });
+
