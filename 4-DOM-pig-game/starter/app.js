@@ -66,7 +66,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	currentScore = document.querySelector('#current-' + activePlayer);
 	
 	// update the diceRoll array
-	// diceRoll.push(dice);
+	diceRoll.push(dice);
 	// console.log(diceRoll);
 
 	// diceArray = diceRoll;
