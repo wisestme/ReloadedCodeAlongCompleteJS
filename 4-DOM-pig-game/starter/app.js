@@ -48,7 +48,9 @@ function loseTurn () {
 		// toggle active class for active player
 		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
-		//diceRoll.push(dice);
+
+		// updates dice roll array
+		diceRoll.push(dice);
 
 		}
 init();
