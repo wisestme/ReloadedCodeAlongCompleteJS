@@ -87,6 +87,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	if (dice !== 1) {
 		roundScore += dice;
 		currentScore.textContent = roundScore;
+		if(currentDice === 6 && previousDice ===6) {
+			loseTurn();
+		}
 	} else {
 		// toggle active class for active player
 		// Lose turn
