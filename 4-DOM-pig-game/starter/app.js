@@ -72,10 +72,10 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	diceArray = diceRoll;
 	
 	// // save the previous and current dice to a variable
-	// if (diceArray.length > 1) {
-	// 	currentDice = diceArray[diceArray.length - 1];
+	 if (diceArray.length > 1) {
+	 	currentDice = diceArray[diceArray.length - 1];
 	// 	previousDice = diceArray[diceArray.length - 2];
-	// }
+	 }
 	
 	
 	// Display dice image
