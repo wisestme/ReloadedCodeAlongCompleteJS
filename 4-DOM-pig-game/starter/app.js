@@ -34,6 +34,9 @@ document.querySelector('.dice').style.display = 'none'
 }
 
 function loseTurn () {
+	// initializes dice roll arrray
+			diceRoll = [];
+
 			let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
 
@@ -45,6 +48,8 @@ function loseTurn () {
 		// toggle active class for active player
 		nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
+		//diceRoll.push(dice);
+
 		}
 init();
 
@@ -89,9 +94,9 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		currentScore.textContent = roundScore;
 
 		// player loses turn on successive dice score of 6
-		if(currentDice === 6 && previousDice ===6) {
+		if(currentDice === 6 && previousDice === 6) {
 			loseTurn();
-			diceRoll = [];
+
 		}
 	} else {
 		// toggle active class for active player
