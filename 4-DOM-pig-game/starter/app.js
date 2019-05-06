@@ -23,6 +23,12 @@ nowScore = 0;
 diceArray = 0;
 diceRoll = [];
 
+nowPlaying = document.querySelector('.player-0-panel');
+		nowPlaying.classList.add('active');
+//nowPlaying = document.querySelector('.player-1-panel');
+//		nowPlaying.classList.remove('active');
+
+
 // Set all score values to 0
 document.querySelector('#score-0').textContent = '0';
 document.querySelector('#current-0').textContent = '0';
@@ -31,6 +37,7 @@ document.querySelector('#current-1').textContent = '0';
 
 // Hide the dice image
 document.querySelector('.dice').style.display = 'none'
+
 }
 
 function loseTurn () {
