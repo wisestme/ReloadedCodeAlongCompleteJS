@@ -10,7 +10,7 @@ GAME RULES:
 */
 let scores, roundScore, activePlayer, dice, currentScore, latestScore,
 	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, 
-	diceArray,currentDice, previousDice;
+	diceArray,currentDice, previousDice, nowPlaying;
 
 
 function init () {
@@ -37,7 +37,7 @@ function loseTurn () {
 	// initializes dice roll arrray
 			diceRoll = [];
 
-			let nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
+			nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
 
 		roundScore = 0;
