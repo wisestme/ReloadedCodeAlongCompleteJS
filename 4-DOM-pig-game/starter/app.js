@@ -69,7 +69,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	diceRoll.push(dice);
 	// console.log(diceRoll);
 
-	// diceArray = diceRoll;
+	diceArray = diceRoll;
 	
 	// // save the previous and current dice to a variable
 	// if (diceArray.length > 1) {
