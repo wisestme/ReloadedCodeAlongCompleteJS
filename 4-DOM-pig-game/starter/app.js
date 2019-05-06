@@ -10,7 +10,7 @@ GAME RULES:
 */
 let scores, roundScore, activePlayer, dice, currentScore, latestScore,
 	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, 
-	diceArray, previousDice, currentDice;
+	diceArray,currentDice;
 
 
 function init () {
