@@ -25,8 +25,8 @@ diceRoll = [];
 
 nowPlaying = document.querySelector('.player-0-panel');
 		nowPlaying.classList.add('active');
-//nowPlaying = document.querySelector('.player-1-panel');
-//		nowPlaying.classList.remove('active');
+nowPlaying = document.querySelector('.player-1-panel');
+		nowPlaying.classList.remove('active');
 
 
 // Set all score values to 0
