@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 let scores, roundScore, activePlayer, dice, currentScore, latestScore,
-	aggregateScore, totalScore, nowScore, newScore, diceRoll, count, 
+	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, 
 	diceArray, previousDice, currentDice;
 
 
@@ -20,8 +20,8 @@ activePlayer = 0;
 latestScore = 0;
 newScore = 0;
 nowScore = 0;
-diceRoll = [];
 diceArray = 0;
+diceRoll = [];
 
 // Set all score values to 0
 document.querySelector('#score-0').textContent = '0';
@@ -66,16 +66,16 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	currentScore = document.querySelector('#current-' + activePlayer);
 	
 	// update the diceRoll array
-	diceRoll.push(dice);
-	console.log(diceRoll);
+	// diceRoll.push(dice);
+	// console.log(diceRoll);
 
-	diceArray = diceRoll;
+	// diceArray = diceRoll;
 	
-	// save the previous and current dice to a variable
-	if (diceArray.length > 1) {
-		currentDice = diceArray[diceArray.length - 1];
-		previousDice = diceArray[diceArray.length - 2];
-	}
+	// // save the previous and current dice to a variable
+	// if (diceArray.length > 1) {
+	// 	currentDice = diceArray[diceArray.length - 1];
+	// 	previousDice = diceArray[diceArray.length - 2];
+	// }
 	
 	
 	// Display dice image
