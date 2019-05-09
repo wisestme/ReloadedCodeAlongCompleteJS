@@ -41,6 +41,7 @@ document.querySelector('#current-1').textContent = '0';
 document.querySelector('.dice').style.display = 'none'
 
 // display roll dice and hold button
+let holdBtn = document.querySelector('.btn-hold');
 holdBtn.style.display = 'none';
 document.querySelector('.btn-roll').style.display = 'none';
 
