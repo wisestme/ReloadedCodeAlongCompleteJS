@@ -171,7 +171,9 @@ aggregateScore = parseInt(totalScore.textContent);
  	holdBtn.style.display = 'none';
  	document.querySelector('.btn-roll').style.display = 'none';
  	setTimeout(function() {
- 		alert(winner  + 'wins');
+ 		//alert(winner  + 'wins');
+ 		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
+ 		document.querySelector('#name-' + activePlayer).textContent = 'Winner';
  	}, 1000); 
  }
 });
