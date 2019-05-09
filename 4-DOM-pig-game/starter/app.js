@@ -90,7 +90,7 @@ let x = document.querySelector('#score-0').textContent;
 // Roll dice event listener
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	scoreInput = document.querySelector('input').value;
-winningScore = parseInt(scoreInput);
+	winningScore = parseInt(scoreInput);
 
 	dice = Math.floor(Math.random() * 6) + 1;
 	currentScore = document.querySelector('#current-' + activePlayer);
@@ -119,10 +119,13 @@ winningScore = parseInt(scoreInput);
 		currentScore.textContent = roundScore;
 
 		// player loses turn on successive dice score of 6
-		if(currentDice === 6 && previousDice === 6) {
+		if(dice === 6) {
+			if(currentDice === previousDice) {
 			loseTurn();
-
+			//diceArray.length = 0;
+			}
 		}
+		
 	} else {
 		// toggle active class for active player
 		// Lose turn
