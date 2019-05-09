@@ -122,7 +122,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		if(dice === 6) {
 			if(currentDice === previousDice) {
 			loseTurn();
-			diceArray.length = 0;
+			//diceArray.length = 0;
+			diceRoll = [];
 			}
 		}
 		
