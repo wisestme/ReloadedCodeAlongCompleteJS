@@ -13,6 +13,7 @@ let scores, roundScore, activePlayer, dice, currentScore, latestScore,
 	diceArray,currentDice, previousDice, nowPlaying;
 
 
+
 function init () {
 	scores = [0, 0];
 roundScore = 0;
@@ -39,6 +40,11 @@ document.querySelector('#current-1').textContent = '0';
 document.querySelector('.dice').style.display = 'none'
 
 }
+
+// Get the value of the input field
+
+let scoreInput = document.querySelector('input').value;
+let winningScore = parseInt(scoreInput);
 
 function loseTurn () {
 	// initializes dice roll arrray
@@ -159,7 +165,4 @@ aggregateScore = parseInt(totalScore.textContent);
 
 document.querySelector('.btn-new').addEventListener('click', init);
 
-// Get the value of the input field
 
-let scoreInput = document.querySelector('input').value;
-let winningScore = parseInt(scoreInput);
