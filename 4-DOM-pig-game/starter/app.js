@@ -158,3 +158,7 @@ aggregateScore = parseInt(totalScore.textContent);
 });
 
 document.querySelector('.btn-new').addEventListener('click', init);
+
+// Get the value of the input field
+
+let scoreInput = document.querySelector('input').value;
