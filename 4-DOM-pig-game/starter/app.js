@@ -40,6 +40,10 @@ document.querySelector('#current-1').textContent = '0';
 // Hide the dice image
 document.querySelector('.dice').style.display = 'none'
 
+// display roll dice and hold button
+holdBtn.style.display = 'none';
+document.querySelector('.btn-roll').style.display = 'none';
+
 }
 
 // Get the value of the input field
