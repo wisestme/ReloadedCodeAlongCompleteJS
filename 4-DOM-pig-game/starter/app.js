@@ -176,7 +176,7 @@ aggregateScore = parseInt(totalScore.textContent);
  		// toggle active player back to the winner
  		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
  		document.querySelector('#name-' + activePlayer).textContent = 'Winner';
- 	}, 1000); 
+ 	}, 500); 
  }
 });
 
