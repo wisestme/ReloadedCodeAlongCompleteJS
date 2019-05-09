@@ -83,6 +83,9 @@ let x = document.querySelector('#score-0').textContent;
 
 // Roll dice event listener
 document.querySelector('.btn-roll').addEventListener('click', function() {
+	scoreInput = document.querySelector('input').value;
+winningScore = parseInt(scoreInput);
+	
 	dice = Math.floor(Math.random() * 6) + 1;
 	currentScore = document.querySelector('#current-' + activePlayer);
 	
@@ -155,7 +158,7 @@ aggregateScore = parseInt(totalScore.textContent);
 
   		let winner;
  //let player = document.querySelector('#name-' + activePlayer);
- if (aggregateScore >= 100) {
+ if (aggregateScore >= winningScore) {
  	winner = 'Player ' + (2 - activePlayer);
  	alert(winner  + 'wins');
  	document.querySelector('.dice').style.display = 'none';
