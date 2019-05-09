@@ -39,7 +39,7 @@ document.querySelector('#current-1').textContent = '0';
 
 // Hide the dice image
 document.querySelector('.dice').style.display = 'none'
-//diceTwo.style.display = 'none';
+diceTwo.style.display = 'none';
 
 // display roll dice and hold button
 let holdBtn = document.querySelector('.btn-hold');
