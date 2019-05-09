@@ -85,7 +85,7 @@ let x = document.querySelector('#score-0').textContent;
 document.querySelector('.btn-roll').addEventListener('click', function() {
 	scoreInput = document.querySelector('input').value;
 winningScore = parseInt(scoreInput);
-	
+
 	dice = Math.floor(Math.random() * 6) + 1;
 	currentScore = document.querySelector('#current-' + activePlayer);
 	
@@ -160,10 +160,13 @@ aggregateScore = parseInt(totalScore.textContent);
  //let player = document.querySelector('#name-' + activePlayer);
  if (aggregateScore >= winningScore) {
  	winner = 'Player ' + (2 - activePlayer);
- 	alert(winner  + 'wins');
+ 	
  	document.querySelector('.dice').style.display = 'none';
  	holdBtn.style.display = 'none';
  	document.querySelector('.btn-roll').style.display = 'none';
+ 	setTimeout(function() {
+ 		alert(winner  + 'wins');
+ 	}, 1000); 
  }
 });
 
