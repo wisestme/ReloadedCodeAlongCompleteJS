@@ -10,7 +10,8 @@ GAME RULES:
 */
 let scores, roundScore, activePlayer, dice, currentScore, latestScore,
 	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, 
-	diceArray,currentDice, previousDice, nowPlaying;
+	diceArray,currentDice, previousDice, nowPlaying, scoreInput,
+	winningScore;
 
 
 
@@ -43,8 +44,8 @@ document.querySelector('.dice').style.display = 'none'
 
 // Get the value of the input field
 
-let scoreInput = document.querySelector('input').value;
-let winningScore = parseInt(scoreInput);
+scoreInput = document.querySelector('input').value;
+winningScore = parseInt(scoreInput);
 
 function loseTurn () {
 	// initializes dice roll arrray
