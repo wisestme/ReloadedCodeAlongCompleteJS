@@ -44,6 +44,7 @@ document.querySelector('.dice').style.display = 'none'
 let holdBtn = document.querySelector('.btn-hold');
 holdBtn.style.display = 'block';
 document.querySelector('.btn-roll').style.display = 'block';
+document.querySelector('input').value = 30;
 
 }
 
