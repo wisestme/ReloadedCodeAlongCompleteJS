@@ -162,3 +162,4 @@ document.querySelector('.btn-new').addEventListener('click', init);
 // Get the value of the input field
 
 let scoreInput = document.querySelector('input').value;
+let winningScore = parseInt(scoreInput);
