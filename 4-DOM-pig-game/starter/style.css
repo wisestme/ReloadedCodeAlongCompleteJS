@@ -140,7 +140,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
-input { 
+form { 
     position: absolute;
     left: 20%;
     top: 45px;
