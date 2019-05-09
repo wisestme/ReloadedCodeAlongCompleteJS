@@ -162,16 +162,13 @@ aggregateScore = parseInt(totalScore.textContent);
   		newScore = 0;
   		document.querySelector('.dice').style.display = 'none';
 
-  		let winner;
+  		
  //let player = document.querySelector('#name-' + activePlayer);
  if (aggregateScore >= winningScore) {
- 	winner = 'Player ' + (2 - activePlayer);
- 	
  	document.querySelector('.dice').style.display = 'none';
  	holdBtn.style.display = 'none';
  	document.querySelector('.btn-roll').style.display = 'none';
  	setTimeout(function() {
- 		//alert(winner  + 'wins');
  		activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
  		document.querySelector('#name-' + activePlayer).textContent = 'Winner';
  	}, 1000); 
