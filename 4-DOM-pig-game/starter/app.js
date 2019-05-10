@@ -10,7 +10,7 @@ GAME RULES:
 */
 let scores, roundScore, activePlayer, dice, diceTwo, currentScore, latestScore,
 	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, diceTwoRoll, 
-	diceArray,currentDice, previousDice, nowPlaying, scoreInput,
+	diceArray, diceTwoArray, currentDice, previousDice, nowPlaying, scoreInput,
 	winningScore;
 
 diceTwo = document.querySelector('.dice2');
@@ -25,6 +25,7 @@ nowScore = 0;
 diceArray = 0;
 diceRoll = [];
 diceTwoRoll = [];
+diceTwoArray = [];
 
 nowPlaying = document.querySelector('.player-0-panel');
 		nowPlaying.classList.add('active');
@@ -105,6 +106,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	// console.log(diceRoll);
 
 	diceArray = diceRoll;
+	diceTwoArray = diceTwoRoll;
 	
 	// // save the previous and current dice to a variable
 	 if (diceArray.length > 1) {
