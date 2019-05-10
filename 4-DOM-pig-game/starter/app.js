@@ -116,6 +116,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	let diceDOM = document.querySelector('.dice');
 	let diceTwoDOM = document.querySelector('.dice2');
 	diceDOM.style.display = 'block';
+	diceTwoDOM.style.display = 'block';
 	diceDOM.src = 'dice-' + dice + '.png'
 
 	// if rolled number is not a 1, update round score
