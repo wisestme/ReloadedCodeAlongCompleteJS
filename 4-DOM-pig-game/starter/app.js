@@ -13,7 +13,7 @@ let scores, roundScore, activePlayer, dice, diceTwo, currentScore, latestScore,
 	diceArray,currentDice, previousDice, nowPlaying, scoreInput,
 	winningScore;
 
-diceTwo = document.querySelector('.dice2')
+diceTwo = document.querySelector('.dice2');
 
 function init () {
 	scores = [0, 0];
@@ -40,7 +40,8 @@ document.querySelector('#current-1').textContent = '0';
 
 // Hide the dice image
 document.querySelector('.dice').style.display = 'none'
-diceTwo.style.display = 'none';
+//diceTwo.style.display = 'none';
+document.querySelector('.dice2').style.display = 'none'
 
 // display roll dice and hold button
 let holdBtn = document.querySelector('.btn-hold');
