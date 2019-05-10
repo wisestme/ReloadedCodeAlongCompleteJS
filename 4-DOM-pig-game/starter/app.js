@@ -9,7 +9,7 @@ GAME RULES:
 
 */
 let scores, roundScore, activePlayer, dice, diceTwo, currentScore, latestScore,
-	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, 
+	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, diceTwoRoll, 
 	diceArray,currentDice, previousDice, nowPlaying, scoreInput,
 	winningScore;
 
@@ -24,6 +24,7 @@ newScore = 0;
 nowScore = 0;
 diceArray = 0;
 diceRoll = [];
+diceTwoRoll = [];
 
 nowPlaying = document.querySelector('.player-0-panel');
 		nowPlaying.classList.add('active');
