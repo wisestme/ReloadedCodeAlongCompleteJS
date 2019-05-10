@@ -60,6 +60,7 @@ winningScore = parseInt(scoreInput);
 function loseTurn () {
 	// initializes dice roll arrray
 			diceRoll = [];
+			diceTwoRoll = [];
 
 			nowPlaying = document.querySelector('.player-' + activePlayer + '-panel');
 		nowPlaying.classList.toggle('active');
