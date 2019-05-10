@@ -100,6 +100,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	
 	// update the diceRoll array
 	diceRoll.push(dice);
+	diceTwoRoll.push(diceTwo);
 	// console.log(diceRoll);
 
 	diceArray = diceRoll;
