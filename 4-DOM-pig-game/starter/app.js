@@ -173,6 +173,7 @@ aggregateScore = parseInt(totalScore.textContent);
   		roundScore = 0;
   		newScore = 0;
   		document.querySelector('.dice').style.display = 'none';
+  		document.querySelector('.dice2').style.display = 'none';
 
   		
  //let player = document.querySelector('#name-' + activePlayer);
