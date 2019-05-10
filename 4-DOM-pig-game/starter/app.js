@@ -121,7 +121,13 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	diceTwoDOM.src = 'dice-' + diceTwo + '.png'
 
 	// if rolled number is not a 1, update round score
-	if (dice !== 1) {
+	if (dice === 1 || diceTwo ===1) {
+		// toggle active class for active player
+		// Lose turn
+		loseTurn();
+		
+	} else {
+		
 		roundScore += dice;
 		currentScore.textContent = roundScore;
 
@@ -133,11 +139,6 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 			diceRoll = [];
 			}
 		}
-		
-	} else {
-		// toggle active class for active player
-		// Lose turn
-		loseTurn();
 		
 	}
 });
