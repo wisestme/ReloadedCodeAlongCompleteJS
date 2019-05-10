@@ -94,6 +94,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	winningScore = parseInt(scoreInput);
 
 	dice = Math.floor(Math.random() * 6) + 1;
+	diceTwo = Math.floor(Math.random() * 6) + 1;
 	currentScore = document.querySelector('#current-' + activePlayer);
 	
 	// update the diceRoll array
