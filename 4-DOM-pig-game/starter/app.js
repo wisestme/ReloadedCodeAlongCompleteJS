@@ -128,7 +128,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 		
 	} else {
 		
-		roundScore += dice;
+		roundScore += (dice + diceTwo);
 		currentScore.textContent = roundScore;
 
 		// player loses turn on successive dice score of 6
