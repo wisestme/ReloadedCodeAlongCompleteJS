@@ -114,6 +114,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	
 	// Display dice image
 	let diceDOM = document.querySelector('.dice');
+	let diceTwoDOM = document.querySelector('.dice2');
 	diceDOM.style.display = 'block';
 	diceDOM.src = 'dice-' + dice + '.png'
 
