@@ -175,6 +175,7 @@ aggregateScore = parseInt(totalScore.textContent);
   		newScore = 0;
   		document.querySelector('.dice').style.display = 'none';
   		document.querySelector('.dice2').style.display = 'none';
+  		latestScore.textContent = 0; // resets current score
 
   		
  //let player = document.querySelector('#name-' + activePlayer);
