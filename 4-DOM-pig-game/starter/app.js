@@ -113,8 +113,8 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 	 if (diceArray.length > 1 && diceTwoArray.length > 1) {
 	 	currentDice = diceArray[diceArray.length - 1];
 	 	previousDice = diceArray[diceArray.length - 2];
-	 	//currentDiceTwo = diceTwoArray[diceTwoArray.length - 1];
-	 	//previousDiceTwo = diceTwoArray[diceTwoArray.length - 2];
+	 	currentDiceTwo = diceTwoArray[diceTwoArray.length - 1];
+	 	previousDiceTwo = diceTwoArray[diceTwoArray.length - 2];
 	 }
 	
 	
