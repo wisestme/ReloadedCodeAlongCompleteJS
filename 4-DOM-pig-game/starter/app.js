@@ -10,7 +10,7 @@ GAME RULES:
 */
 let scores, roundScore, activePlayer, dice, diceTwo, currentScore, latestScore,
 	aggregateScore, totalScore, nowScore, newScore, count, diceRoll, diceTwoRoll, 
-	diceArray, diceTwoArray, currentDice, previousDice, currentDiceTwo, previousDice,
+	diceArray, diceTwoArray, currentDice, previousDice, currentDiceTwo, previousDiceTwo,
 	nowPlaying, scoreInput, winningScore;
 
 diceTwo = document.querySelector('.dice2');
