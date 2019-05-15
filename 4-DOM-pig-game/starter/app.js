@@ -50,6 +50,8 @@ holdBtn.style.display = 'block';
 document.querySelector('.btn-roll').style.display = 'block';
 document.querySelector('input').value = 30;
 
+document.querySelector('#name-0').textContent = 'Player 1';
+document.querySelector('#name-1').textContent = 'Player 2';
 }
 
 // Get the value of the input field
