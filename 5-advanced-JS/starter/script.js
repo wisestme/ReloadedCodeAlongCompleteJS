@@ -17,7 +17,9 @@ Person.prototype.calculateAge = function() {
 	}
 
 let chijioke = new Person('Chijioke', 1989, 'Programmer');
+let hapiness = new Person('Happiness', 1988, 'Designer');
 
 console.log(john);
 console.log(chijioke);
 chijioke.calculateAge();
+hapiness.calculateAge();
