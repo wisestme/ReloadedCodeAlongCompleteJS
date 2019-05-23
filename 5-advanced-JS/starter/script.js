@@ -1,6 +1,6 @@
 // Function constructor
 
-let john = {
+/*let john = {
 	name: 'Chijioke',
 	yearOfBirth: 1987,
 	job: 'teacher',
@@ -22,4 +22,5 @@ let hapiness = new Person('Happiness', 1988, 'Designer');
 console.log(john);
 console.log(chijioke);
 chijioke.calculateAge();
-hapiness.calculateAge();
+hapiness.calculateAge();*/
+
