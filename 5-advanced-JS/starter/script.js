@@ -25,7 +25,7 @@ chijioke.calculateAge();
 hapiness.calculateAge();*/
 
 // object.create
-let personProto = {
+/*let personProto = {
 	calculateAge: function() {
 		console.log(2019 - this.yearOfBirth);
 	}
@@ -34,4 +34,5 @@ let personProto = {
 let john = Object.create(personProto);
 john.name = 'John';
 john.yearOfBirth = 1987;
-john.job = 'teacher';
+john.job = 'teacher';*/
+
