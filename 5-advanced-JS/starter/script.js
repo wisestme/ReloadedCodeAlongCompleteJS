@@ -31,7 +31,7 @@ let personProto = {
 	}
 };
 
-let john = object.create(personProto);
+let john = Object.create(personProto);
 john.name = 'John';
 john.yearOfBirth = 1987;
 john.job = 'teacher';
