@@ -36,3 +36,21 @@ john.name = 'John';
 john.yearOfBirth = 1987;
 john.job = 'teacher';*/
 
+// objects vs primitives
+
+let a = 23;
+let b = a;
+
+a = 32;
+
+console.log(a, b);
+
+let obj1 = {
+	name: 'John',
+	age: 26,
+};
+
+let obj2 = obj1;
+obj1.age = 30;
+
+console.log(obj1, obj2);
