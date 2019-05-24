@@ -39,7 +39,7 @@ john.job = 'teacher';*/
 // objects vs primitives
 
 // primitives
-let a = 23;
+/*let a = 23;
 let b = a;
 
 a = 32;
@@ -72,3 +72,5 @@ function change(a, b) {
 change(age, obj);
 
 console.log(age, obj.city);
+*/
+
