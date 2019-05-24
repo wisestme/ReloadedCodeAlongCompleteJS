@@ -74,3 +74,5 @@ change(age, obj);
 console.log(age, obj.city);
 */
 
+let years = [1960, 1938, 2010, 1999, 1993];
+
