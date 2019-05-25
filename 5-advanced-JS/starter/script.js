@@ -93,7 +93,7 @@ function isFullAge(e) {
 }
 
 function maxHeartRate(e) {
-	if(e >= 18 && <= 81) {
+	if(e >= 18 && e<= 81) {
 		return Math.round(206.9 - (0.67 * e));
 	} else {
 		return -1;
