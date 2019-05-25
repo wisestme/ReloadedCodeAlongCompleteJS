@@ -78,4 +78,7 @@ let years = [1960, 1938, 2010, 1999, 1993];
 
 function arrayCalc(arr, fn) {
 	let arrResult = [];
+	for (let i = 0; i < arr.length; i++) {
+		arrResult.push(fn(arr[i]));
+	}
 }
