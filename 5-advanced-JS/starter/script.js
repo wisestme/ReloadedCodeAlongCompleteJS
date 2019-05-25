@@ -83,3 +83,7 @@ function arrayCalc(arr, fn) {
 	}
 	return arrResult;
 }
+
+function calcAge(e) {
+	return 2019 - e;
+}
