@@ -102,6 +102,7 @@ function maxHeartRate(e) {
 
 let ages = arrayCalc(years, calcAge);
 let fullAges = arrayCalc(ages, isFullAge);
+arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
 console.log(fullAges);
