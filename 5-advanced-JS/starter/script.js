@@ -92,6 +92,10 @@ function isFullAge(e) {
 	return e >= 18;
 }
 
+function maxHeartRate(e) {
+	
+}
+
 let ages = arrayCalc(years, calcAge);
 let fullAges = arrayCalc(ages, isFullAge);
 
