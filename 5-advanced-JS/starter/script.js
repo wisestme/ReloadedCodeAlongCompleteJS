@@ -96,3 +96,4 @@ let ages = arrayCalc(years, calcAge);
 let fullAges = arrayCalc(ages, isFullAge);
 
 console.log(ages);
+console.log(fullAges);
