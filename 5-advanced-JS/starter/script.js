@@ -89,3 +89,5 @@ function calcAge(e) {
 }
 
 let ages = arrayCalc(years, calcAge);
+
+console.log(ages);
