@@ -88,6 +88,11 @@ function calcAge(e) {
 	return 2019 - e;
 }
 
+function isFullAge(e) {
+	return e >= 18;
+}
+
 let ages = arrayCalc(years, calcAge);
+
 
 console.log(ages);
