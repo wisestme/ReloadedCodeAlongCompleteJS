@@ -93,7 +93,11 @@ function isFullAge(e) {
 }
 
 function maxHeartRate(e) {
-	
+	if(e >= 18 && <= 81) {
+
+	} else {
+		return -1;
+	}
 }
 
 let ages = arrayCalc(years, calcAge);
