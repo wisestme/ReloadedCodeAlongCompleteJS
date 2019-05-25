@@ -81,4 +81,5 @@ function arrayCalc(arr, fn) {
 	for (let i = 0; i < arr.length; i++) {
 		arrResult.push(fn(arr[i]));
 	}
+	return arrResult;
 }
