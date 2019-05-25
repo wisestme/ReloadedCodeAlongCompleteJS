@@ -88,4 +88,4 @@ function calcAge(e) {
 	return 2019 - e;
 }
 
-arrayCalc(years, calcAge);
+let ages = arrayCalc(years, calcAge);
