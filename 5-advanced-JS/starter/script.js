@@ -100,6 +100,10 @@ function maxHeartRate(e) {
 	}
 }
 
+function averageAge(e) {
+	
+}
+
 let ages = arrayCalc(years, calcAge);
 let fullAges = arrayCalc(ages, isFullAge);
 let rates = arrayCalc(ages, maxHeartRate);
