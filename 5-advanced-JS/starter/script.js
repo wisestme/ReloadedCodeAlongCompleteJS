@@ -74,7 +74,7 @@ change(age, obj);
 console.log(age, obj.city);
 */
 
-let years = [1960, 1938, 2010, 1999, 1993];
+/*let years = [1960, 1938, 2010, 1999, 1993];
 
 function arrayCalc(arr, fn) {
 	let arrResult = [];
@@ -107,4 +107,4 @@ let rates = arrayCalc(ages, maxHeartRate);
 
 console.log(ages);
 console.log(fullAges);
-console.log(rates);
+console.log(rates);*/
