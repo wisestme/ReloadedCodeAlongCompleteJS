@@ -114,5 +114,9 @@ function interviewQuestion(job) {
 		return function(name) {
 			console.log(name + ', what subject do you teach?');
 		}
+	} else if (job === 'programmer') {
+		return function(name) {
+			console.log(name + ', do you have a github account?');
+		}
 	}
 }
