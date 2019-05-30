@@ -109,7 +109,7 @@ console.log(ages);
 console.log(fullAges);
 console.log(rates);*/
 
-function interviewQuestion(job) {
+/*function interviewQuestion(job) {
 	if(job === 'teacher') {
 		return function(name) {
 			console.log(name + ', what subject do you teach?');
@@ -123,7 +123,27 @@ function interviewQuestion(job) {
 				console.log(name + ', how come you are jobless?')
 			}
 		}
+}*/
+
+
+function interviewQuestion(job) {
+	switch (job) {
+		case 'teacher':
+		return function(name) {
+			console.log(name + ', what subject do you teach?');
+		}
+		break;
+		case 'programmer':
+		return function(name) {
+			console.log(name + ', do you have a github account?');
+		} 
+		break;
+		default:
+		return function(name) {
+				console.log(name + ', how come you are jobless?')
+			}
+	}
 }
 
-let programmerQuestion = interviewQuestion('programmer');
+let programmerQuestion = interviewQuestion('teacher');
 programmerQuestion('Chijioke');
