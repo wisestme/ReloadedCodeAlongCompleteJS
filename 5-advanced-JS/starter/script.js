@@ -117,6 +117,11 @@ function interviewQuestion(job) {
 	} else if (job === 'programmer') {
 		return function(name) {
 			console.log(name + ', do you have a github account?');
+		} else {
+			return function(name) {
+				console.log(name + ', how come you are jobless?')
+			}
 		}
 	}
 }
+
