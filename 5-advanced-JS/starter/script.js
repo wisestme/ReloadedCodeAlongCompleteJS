@@ -110,5 +110,9 @@ console.log(fullAges);
 console.log(rates);*/
 
 function interviewQuestion(job) {
-	
+	if(job === 'teacher') {
+		return function(name) {
+			console.log(name + ', what subject do you teach?');
+		}
+	}
 }
