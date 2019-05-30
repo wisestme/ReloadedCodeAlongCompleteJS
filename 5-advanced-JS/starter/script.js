@@ -126,4 +126,4 @@ function interviewQuestion(job) {
 }
 
 let programmerQuestion = interviewQuestion('programmer');
-programmerQuestion('Chijioke')
+programmerQuestion('Chijioke');
