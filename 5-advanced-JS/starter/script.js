@@ -147,3 +147,10 @@ function interviewQuestion(job) {
 
 let programmerQuestion = interviewQuestion('teacher');
 programmerQuestion('Chijioke');
+
+interviewQuestion()('wisest');
+
+(function () {
+	let score = Math.random() * 10;
+	console.log(score >= 5);
+})();
