@@ -162,3 +162,5 @@ function retirement (retirementAge) {
 		console.log((retirementAge - age) + a);
 	}
 }
+
+let retirementUS = retirement(66);
