@@ -172,3 +172,33 @@ if (country === 'nigeria') {
 } else{
 	retirementUS(birthYear);
 }
+
+/*function interviewQuestion(job) {
+	if(job === 'teacher') {
+		return function(name) {
+			console.log(name + ', what subject do you teach?');
+		}
+	} else if (job === 'programmer') {
+		return function(name) {
+			console.log(name + ', do you have a github account?');
+		} 
+	} else {
+			return function(name) {
+				console.log(name + ', how come you are jobless?')
+			}
+		}
+}*/
+
+function interviewQuestion(job) {
+	return function (name) {
+		if(job === 'teacher') {
+			console.log(name + ', what subject do you teach?');
+		} else if(job === 'programmer') {
+			console.log(name + ', do you have a github account?');
+		} else {
+			console.log(name + ', how come you are jobless?');
+		}
+	}
+}
+
+interviewQuestion('programmer')('Chijioke');
