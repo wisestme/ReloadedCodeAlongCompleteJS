@@ -154,6 +154,8 @@ interviewQuestion()('wisest');
 	let score = Math.random() * 10;
 	console.log(score >= 5 - goodluck);
 })(3);*/
+let birthYear = prompt('when were you born?');
+let country = prompt('where are you from?');
 
 function retirement (retirementAge) {
 	let a = ' years left until retirement';
@@ -164,4 +166,9 @@ function retirement (retirementAge) {
 }
 
 let retirementUS = retirement(66);
-retirementUS(1987);
+let retirementNG = retirement(75);
+if (country === 'nigeria') {
+	retirementNG(birthYear)
+} else{
+	retirementUS(birthYear);
+}
