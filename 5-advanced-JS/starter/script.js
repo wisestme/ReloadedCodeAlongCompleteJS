@@ -164,3 +164,4 @@ function retirement (retirementAge) {
 }
 
 let retirementUS = retirement(66);
+retirementUS(1987);
