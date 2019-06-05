@@ -126,7 +126,7 @@ console.log(rates);*/
 }*/
 
 
-function interviewQuestion(job) {
+/*function interviewQuestion(job) {
 	switch (job) {
 		case 'teacher':
 		return function(name) {
@@ -153,4 +153,15 @@ interviewQuestion()('wisest');
 (function (goodluck) {
 	let score = Math.random() * 10;
 	console.log(score >= 5 - goodluck);
-})(3);
+})(3);*/
+
+function retirement (retirementAge) {
+	let a = ' years left until retirement';
+	return function (yearOfBirth) {
+		let age = 2019 - yearOfBirth;
+		console.log((retirementAge - age) + a);
+	}
+}
+
+let retirementUS = retirement(66);
+retirementUS(1987);
