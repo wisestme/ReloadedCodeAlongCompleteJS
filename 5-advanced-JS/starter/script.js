@@ -158,7 +158,7 @@ interviewQuestion()('wisest');
 function retirement (retirementAge) {
 	let a = ' years left until retirement';
 	return function (yearOfBirth) {
-		/*let age = 2019 - yearOfBirth;
-		console.log((retirementAge - age) +)*/
+		let age = 2019 - yearOfBirth;
+		//console.log((retirementAge - age) +)
 	}
 }
