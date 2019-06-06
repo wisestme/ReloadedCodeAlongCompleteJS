@@ -218,3 +218,11 @@ let john = {
 		}
 	}
 }
+
+let emily = {
+	name: 'Emily',
+	age:  28,
+	job: 'Programmer',
+}
+
+john.presentation('formal', 'morning');
