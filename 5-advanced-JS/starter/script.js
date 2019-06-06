@@ -227,3 +227,6 @@ let emily = {
 
 john.presentation('formal', 'morning');
 john.presentation.call(emily, 'friendly', 'afternoon');
+
+let emilyFriendly = john.presentation.bind(emily, 'friendly');
+emilyFriendly('afternoon')
