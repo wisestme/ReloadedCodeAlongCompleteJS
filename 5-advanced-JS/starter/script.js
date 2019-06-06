@@ -154,7 +154,7 @@ interviewQuestion()('wisest');
 	let score = Math.random() * 10;
 	console.log(score >= 5 - goodluck);
 })(3);*/
-let birthYear = prompt('when were you born?');
+/*let birthYear = prompt('when were you born?');
 let country = prompt('where are you from?');
 
 function retirement (retirementAge) {
@@ -171,7 +171,7 @@ if (country === 'nigeria') {
 	retirementNG(birthYear)
 } else{
 	retirementUS(birthYear);
-}
+}*/
 
 /*function interviewQuestion(job) {
 	if(job === 'teacher') {
@@ -189,7 +189,7 @@ if (country === 'nigeria') {
 		}
 }*/
 
-function interviewQuestion(job) {
+/*function interviewQuestion(job) {
 	return function (name) {
 		if(job === 'teacher') {
 			console.log(name + ', what subject do you teach?');
@@ -201,4 +201,10 @@ function interviewQuestion(job) {
 	}
 }
 
-interviewQuestion('programmer')('Chijioke');
+interviewQuestion('programmer')('Chijioke');*/
+
+let john = {
+	name: 'John',
+	age: 26,
+	job: 'teacher',
+}
