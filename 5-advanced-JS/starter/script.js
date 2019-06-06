@@ -226,3 +226,4 @@ let emily = {
 }
 
 john.presentation('formal', 'morning');
+john.presentation.call(emily, 'friendly', 'afternoon');
