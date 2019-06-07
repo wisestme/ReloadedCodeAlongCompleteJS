@@ -234,11 +234,12 @@ emilyFriendly('afternoon');*/
 let wisest = {
 	name: 'wisestMe',
 	age: 32,
+	birthYear: 1987,
 	isMarried: false,
 	occupation: 'Computer Scientist',
 	family: ['Daddy', 'Mummy', 'Brothers', 'Sisters', 'Girlfriend',],
-	calcAge: function(birthYear) {
-		return 2019 - birthYear;
+	calcAge: function() {
+		return 2019 - this.birthYear;
 	}
 };
 
@@ -260,5 +261,5 @@ chijioke.job = 'SuperStar';
 
 console.log(chijioke);
 
-let myAge = wisest.calcAge(1987);
+let myAge = wisest.calcAge();
 console.log(myAge);
