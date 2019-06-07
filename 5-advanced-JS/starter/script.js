@@ -232,5 +232,9 @@ let emilyFriendly = john.presentation.bind(emily, 'friendly');
 emilyFriendly('afternoon');*/
 
 let wisest = {
-	
+	name: 'wisestMe',
+	age: 32,
+	isMarried: false,
+	occupation: 'Computer Scientist',
+	family: ['Daddy', 'Mummy', 'Brothers', 'Sisters', 'Girlfriend',]
 }
