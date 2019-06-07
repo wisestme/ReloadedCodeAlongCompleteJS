@@ -240,3 +240,6 @@ let wisest = {
 };
 
 console.log(wisest.family);
+console.log(wisest['name']);
+let x = 'isMarried';
+console.log(wisest[x]);
