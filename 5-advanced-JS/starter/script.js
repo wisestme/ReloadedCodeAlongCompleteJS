@@ -236,7 +236,10 @@ let wisest = {
 	age: 32,
 	isMarried: false,
 	occupation: 'Computer Scientist',
-	family: ['Daddy', 'Mummy', 'Brothers', 'Sisters', 'Girlfriend',]
+	family: ['Daddy', 'Mummy', 'Brothers', 'Sisters', 'Girlfriend',],
+	calcAge: function(birthYear) {
+		return 2019 - birthYear;
+	}
 };
 
 console.log(wisest.family);
@@ -256,3 +259,6 @@ chijioke.lastName = 'Ceejay';
 chijioke.job = 'SuperStar';
 
 console.log(chijioke);
+
+let myAge = wisest.calcAge(1987);
+console.log(myAge);
