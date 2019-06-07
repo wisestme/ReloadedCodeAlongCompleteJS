@@ -237,4 +237,6 @@ let wisest = {
 	isMarried: false,
 	occupation: 'Computer Scientist',
 	family: ['Daddy', 'Mummy', 'Brothers', 'Sisters', 'Girlfriend',]
-}
+};
+
+console.log(wisest.family);
