@@ -203,7 +203,7 @@ if (country === 'nigeria') {
 
 interviewQuestion('programmer')('Chijioke');*/
 
-let john = {
+/*let john = {
 	name: 'John',
 	age: 26,
 	job: 'teacher',
@@ -229,4 +229,8 @@ john.presentation('formal', 'morning');
 john.presentation.call(emily, 'friendly', 'afternoon');
 
 let emilyFriendly = john.presentation.bind(emily, 'friendly');
-emilyFriendly('afternoon');
+emilyFriendly('afternoon');*/
+
+let wisest = {
+	
+}
