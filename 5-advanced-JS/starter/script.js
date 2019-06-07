@@ -251,3 +251,8 @@ console.log(wisest);
 
 let chijioke = new Object();
 
+chijioke.firstName = 'wisestMua';
+chijioke.lastName = 'Ceejay';
+chijioke.job = 'SuperStar';
+
+console.log(chijioke);
