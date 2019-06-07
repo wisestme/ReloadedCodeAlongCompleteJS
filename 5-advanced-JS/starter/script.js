@@ -243,3 +243,11 @@ console.log(wisest.family);
 console.log(wisest['name']);
 let x = 'isMarried';
 console.log(wisest[x]);
+
+wisest.occupation = 'preacher';
+wisest.isMarried = true;
+
+console.log(wisest);
+
+let chijioke = new Object();
+
