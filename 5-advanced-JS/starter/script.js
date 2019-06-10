@@ -263,8 +263,4 @@ console.log(chijioke);
 wisest.calcAge();
 console.log(wisest.age);
 
-let jonas = {
-	name: 'Jonas',
-	level: 'Advanced',
-	specialization: 'Fullstack',
-};
+
