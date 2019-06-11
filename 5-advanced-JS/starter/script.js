@@ -264,3 +264,13 @@ wisest.calcAge();
 console.log(wisest.age);
 
 
+let Book = function(kind, name, numberOfBooks){
+	this.kind = kind;
+	this.name = name;
+	this.numberOfBooks = numberOfBooks;
+	
+}
+
+let bible = new Book('Religious', 'Bible', 66);
+
+console.log(bible);
