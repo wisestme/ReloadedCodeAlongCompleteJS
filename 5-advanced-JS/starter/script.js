@@ -268,9 +268,13 @@ let Book = function(kind, name, numberOfBooks){
 	this.kind = kind;
 	this.name = name;
 	this.numberOfBooks = numberOfBooks;
-	
+	this.someBooks = ['Genesis', 'Exodus', 'Leviticus', 'Numbers'];
+	this.findBook = function() {
+		console.log(this.someBooks[2]);
+	}
 }
 
 let bible = new Book('Religious', 'Bible', 66);
 
+bible.findBook()
 console.log(bible);
