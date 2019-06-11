@@ -269,12 +269,15 @@ let Book = function(kind, name, numberOfBooks){
 	this.name = name;
 	this.numberOfBooks = numberOfBooks;
 	this.someBooks = ['Genesis', 'Exodus', 'Leviticus', 'Numbers'];
-	this.findBook = function() {
+}
+
+Book.prototype.findBook = function() {
 		console.log(this.someBooks[2]);
 	}
-}
+
+	Book.prototype.version = 'King James Version';
 
 let bible = new Book('Religious', 'Bible', 66);
 
 bible.findBook()
-console.log(bible);
+console.log(bible.version);
