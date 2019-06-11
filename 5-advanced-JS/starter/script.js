@@ -279,5 +279,14 @@ Book.prototype.findBook = function() {
 
 let bible = new Book('Religious', 'Bible', 66);
 
-bible.findBook()
+bible.findBook();
 console.log(bible.version);
+
+let phone = {};
+
+let samsung = Object.create(phone);
+samsung.name = 'Samsung';
+samsung.model = 'Galaxy S10';
+samsung.OS = 'Android';
+
+console.log(samsung);
