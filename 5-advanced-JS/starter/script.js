@@ -295,3 +295,4 @@ console.log(samsung);*/
 // PRIMITIVES VS OBJECTS
 let a = 23;
 let b = a;
+a = 50;
