@@ -309,3 +309,11 @@ let obj2 = obj1;
 obj1.age = 32;
 
 console.log(obj1, obj2);
+
+// IN FUNCTIONS
+let age = 40;
+//let obj = {
+	//name: 'Chiji';
+	//city: 'Lagos';
+//}
+
