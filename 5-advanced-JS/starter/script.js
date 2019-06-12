@@ -317,3 +317,7 @@ let obj = {
 	city: 'Lagos';
 }
 
+function(a, b) {
+	a = 30;
+	b.city = 'San Francisco';
+}
