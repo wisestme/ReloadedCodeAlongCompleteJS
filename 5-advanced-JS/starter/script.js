@@ -305,3 +305,7 @@ let obj1 = {
 };
 
 let obj2 = obj1;
+
+obj1.age = 32;
+
+//console.log(obj1, obj2);
