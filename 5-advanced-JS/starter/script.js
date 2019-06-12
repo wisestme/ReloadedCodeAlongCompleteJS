@@ -303,3 +303,5 @@ let obj1 = {
 	name: 'wisest',
 	age: 23,
 };
+
+let obj2 = obj1;
