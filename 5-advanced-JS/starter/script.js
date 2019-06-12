@@ -296,3 +296,6 @@ console.log(samsung);*/
 let a = 23;
 let b = a;
 a = 50;
+
+console.log(a, b);
+
