@@ -312,8 +312,8 @@ console.log(obj1, obj2);
 
 // IN FUNCTIONS
 let age = 40;
-//let obj = {
+let obj = {
 	//name: 'Chiji';
 	//city: 'Lagos';
-//}
+}
 
