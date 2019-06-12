@@ -324,4 +324,4 @@ function change(a, b) {
 
 change(age, obj);
 
-//console.log(age, obj);
+console.log(age, obj);
