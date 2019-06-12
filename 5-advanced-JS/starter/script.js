@@ -231,7 +231,7 @@ john.presentation.call(emily, 'friendly', 'afternoon');
 let emilyFriendly = john.presentation.bind(emily, 'friendly');
 emilyFriendly('afternoon');*/
 
-let wisest = {
+/*let wisest = {
 	name: 'wisestMe',
 	birthYear: 1987,
 	isMarried: false,
@@ -289,4 +289,5 @@ samsung.name = 'Samsung';
 samsung.model = 'Galaxy S10';
 samsung.OS = 'Android';
 
-console.log(samsung);
+console.log(samsung);*/
+
