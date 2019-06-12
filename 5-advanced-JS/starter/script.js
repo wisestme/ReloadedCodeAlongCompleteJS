@@ -299,3 +299,6 @@ a = 50;
 
 console.log(a, b);
 
+let obj1 = {
+	
+};
