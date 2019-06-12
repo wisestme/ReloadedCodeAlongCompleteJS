@@ -313,8 +313,8 @@ console.log(obj1, obj2);
 // IN FUNCTIONS
 let age = 40;
 let obj = {
-	name: 'Chiji';
-	city: 'Lagos';
+	name: 'Chiji',
+	city: 'Lagos',
 }
 
 function change(a, b) {
