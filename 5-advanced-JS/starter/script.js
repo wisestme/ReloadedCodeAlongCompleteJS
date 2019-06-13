@@ -345,8 +345,22 @@ function isAdult (e) {
 	return e >= 18;
 }
 
+function lastbornOlder(e) {
+	/*if(e < 1995) {
+		console.log('I m older than your last born');
+	} else {
+		console.log('Your last born is older than me');
+	}*/
+	return e < 1994;
+}
+
 let allAges = arrayOp(years, calcAge);
 console.log(allAges);
+
 let fullAge = arrayOp(allAges, isAdult);
 console.log(fullAge);
+
+let older = arrayOp(years, lastbornOlder);
+
+console.log(older);
 
