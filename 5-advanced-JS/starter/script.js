@@ -333,6 +333,7 @@ function calcAge (e) {
 }
 
 function arrayOp (arr, fn) {
+	let ages = [];
 	for(let i = 0; i < years.length; i++){
 	console.log(fn(arr[i]));
 }
