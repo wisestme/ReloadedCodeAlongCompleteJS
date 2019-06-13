@@ -332,6 +332,14 @@ function calcAge (e) {
 	return 2019 - e;
 }
 
+
+
+
 function arrayOp (arr, fn) {
+	for(let i = 0; i < years.length; i++){
+	console.log(fn(arr[i]));
+}
 
 }
+
+arrayOp(years, calcAge);
