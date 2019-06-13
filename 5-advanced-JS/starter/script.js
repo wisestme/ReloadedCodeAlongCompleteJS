@@ -389,5 +389,5 @@ let answer = arrayOp(older, message);*/
 interviewQuestion('Programmer')('Chijioke');*/
 
 (function () {
-	
+	let score = Math.random() * 10;
 })
