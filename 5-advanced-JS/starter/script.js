@@ -335,9 +335,11 @@ function calcAge (e) {
 function arrayOp (arr, fn) {
 	let ages = [];
 	for(let i = 0; i < years.length; i++){
-	console.log(fn(arr[i]));
+	let result = (fn(arr[i]));
+	ages.push(result);
 }
-
+	//return ages;
+	//console.log(ages);
 }
 
 function isAdult (e) {
@@ -346,3 +348,4 @@ function isAdult (e) {
 
 arrayOp(years, calcAge);
 arrayOp(years, isAdult);
+
