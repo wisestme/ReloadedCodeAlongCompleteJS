@@ -386,3 +386,4 @@ function interviewQuestion(job) {
 	}
 }
 
+interviewQuestion('Programmer')('Chijioke');
