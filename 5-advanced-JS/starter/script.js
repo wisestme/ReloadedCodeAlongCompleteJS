@@ -326,7 +326,7 @@ change(age, obj);
 
 console.log(age, obj);*/
 
-let years = [1986, 1995, 2007, 2014, 1980];
+/*let years = [1986, 1995, 2007, 2014, 1980];
 
 function calcAge (e) {
 	return 2019 - e;
@@ -346,11 +346,11 @@ function isAdult (e) {
 }
 
 function lastbornOlder(e) {
-	/*if(e < 1995) {
+	if(e < 1995) {
 		console.log('I m older than your last born');
 	} else {
 		console.log('Your last born is older than me');
-	}*/
+	}
 	return e < 1994;
 }
 
@@ -372,4 +372,5 @@ let older = arrayOp(years, lastbornOlder);
 
 console.log(older);
 
-let answer = arrayOp(older, message);
+let answer = arrayOp(older, message);*/
+
