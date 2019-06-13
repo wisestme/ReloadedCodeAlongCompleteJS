@@ -374,8 +374,8 @@ console.log(older);
 
 let answer = arrayOp(older, message);*/
 
-function interviewQuestion(job, name) {
-	return function(){
+function interviewQuestion(job) {
+	return function(name){
 		if(job === 'teacher') {
 			console.log('what subject do you teach');
 		} else if(job === 'Programmer') {
@@ -385,3 +385,4 @@ function interviewQuestion(job, name) {
 		}
 	}
 }
+
