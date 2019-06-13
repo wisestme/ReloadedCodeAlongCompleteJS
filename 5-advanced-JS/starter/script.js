@@ -374,3 +374,6 @@ console.log(older);
 
 let answer = arrayOp(older, message);*/
 
+function interviewQuestion(job) {
+	
+}
