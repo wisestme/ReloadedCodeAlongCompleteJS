@@ -360,7 +360,7 @@ console.log(allAges);
 let fullAge = arrayOp(allAges, isAdult);
 console.log(fullAge);
 
-let older = arrayOp(years, lastbornOlder);
+arrayOp(years, lastbornOlder);
 
-console.log(older);
+//console.log(older);
 
