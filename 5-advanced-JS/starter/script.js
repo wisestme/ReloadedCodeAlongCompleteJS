@@ -377,11 +377,11 @@ let answer = arrayOp(older, message);*/
 function interviewQuestion(job) {
 	return function(name){
 		if(job === 'teacher') {
-			console.log('what subject do you teach');
+			console.log('what subject do you teach ' + name);
 		} else if(job === 'Programmer') {
-			console.log('what is your git hub username');
+			console.log('what is your git hub username ' + name);
 		} else {
-			console.log('what do you do for a living?');
+			console.log('what do you do for a living? ' + name);
 		}
 	}
 }
