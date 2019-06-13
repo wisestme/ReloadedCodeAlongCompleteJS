@@ -362,5 +362,5 @@ console.log(fullAge);
 
 let older = arrayOp(years, lastbornOlder);
 
-//console.log(older);
+console.log(older);
 
