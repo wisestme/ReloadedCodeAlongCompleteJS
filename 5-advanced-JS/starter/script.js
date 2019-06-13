@@ -327,3 +327,7 @@ change(age, obj);
 console.log(age, obj);*/
 
 let years = [1995, 2007, 1990, 1986, 1980];
+
+function arrayOp (arr, fn) {
+
+}
