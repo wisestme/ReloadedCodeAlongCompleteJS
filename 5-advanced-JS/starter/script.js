@@ -376,6 +376,12 @@ let answer = arrayOp(older, message);*/
 
 function interviewQuestion(job) {
 	return function(){
-		//if(job === )
+		if(job === 'teacher') {
+			console.log('what subject do you teach');
+		} else if(job === 'Programmer') {
+			console.log('what is your git hub username');
+		} else {
+			console.log('what do you do for a living?');
+		}
 	}
 }
