@@ -354,6 +354,14 @@ function lastbornOlder(e) {
 	return e < 1994;
 }
 
+function message (e) {
+	if(e === true) {
+		console.log('I m older than your last born');
+	} else {
+		console.log('Your last born is older than me');
+	}
+}
+
 let allAges = arrayOp(years, calcAge);
 console.log(allAges);
 
