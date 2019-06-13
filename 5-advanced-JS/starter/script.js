@@ -293,7 +293,7 @@ console.log(samsung);*/
 
 
 // PRIMITIVES VS OBJECTS
-let a = 23;
+/*let a = 23;
 let b = a;
 a = 50;
 
@@ -324,4 +324,6 @@ function change(a, b) {
 
 change(age, obj);
 
-console.log(age, obj);
+console.log(age, obj);*/
+
+let years = [1995, 2007, 1990, 1986, 1980];
