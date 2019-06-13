@@ -387,3 +387,7 @@ let answer = arrayOp(older, message);*/
 }
 
 interviewQuestion('Programmer')('Chijioke');*/
+
+(function () {
+	
+})
