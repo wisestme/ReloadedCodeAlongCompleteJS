@@ -372,3 +372,4 @@ let older = arrayOp(years, lastbornOlder);
 
 console.log(older);
 
+//let answer = arrayOp(older, message);
