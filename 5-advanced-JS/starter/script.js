@@ -391,4 +391,4 @@ interviewQuestion('Programmer')('Chijioke');*/
 (function (goodluck) {
 	let score = Math.random() * 10;
 	console.log(score >= 5);
-})();
+})(3);
