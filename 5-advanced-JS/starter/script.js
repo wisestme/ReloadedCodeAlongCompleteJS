@@ -338,14 +338,15 @@ function arrayOp (arr, fn) {
 	let result = (fn(arr[i]));
 	ages.push(result);
 }
-	//return ages;
-	//console.log(ages);
+	return ages;
 }
 
 function isAdult (e) {
 	return e >= 18;
 }
 
-arrayOp(years, calcAge);
-arrayOp(years, isAdult);
+let allAges = arrayOp(years, calcAge);
+console.log(allAges);
+let fullAge = arrayOp(allAges, isAdult);
+console.log(fullAge);
 
