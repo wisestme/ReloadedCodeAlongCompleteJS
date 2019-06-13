@@ -374,7 +374,7 @@ console.log(older);
 
 let answer = arrayOp(older, message);*/
 
-function interviewQuestion(job) {
+function interviewQuestion(job, name) {
 	return function(){
 		if(job === 'teacher') {
 			console.log('what subject do you teach');
