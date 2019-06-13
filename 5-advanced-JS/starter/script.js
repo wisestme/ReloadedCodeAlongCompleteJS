@@ -326,7 +326,7 @@ change(age, obj);
 
 console.log(age, obj);*/
 
-let years = [1995, 2007, 1990, 1986, 1980];
+let years = [1995, 2007, 2014, 1986, 1980];
 
 function calcAge (e) {
 	return 2019 - e;
@@ -344,3 +344,4 @@ function isAdult (e) {
 }
 
 arrayOp(years, calcAge);
+arrayOp(years, isAdult);
