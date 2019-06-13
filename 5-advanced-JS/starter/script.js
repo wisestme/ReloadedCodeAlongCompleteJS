@@ -388,7 +388,7 @@ let answer = arrayOp(older, message);*/
 
 interviewQuestion('Programmer')('Chijioke');*/
 
-(function () {
+(function (goodluck) {
 	let score = Math.random() * 10;
 	console.log(score >= 5);
-})()
+})();
