@@ -407,3 +407,9 @@ let saviour = new Question('Who is Jesus? \n'
 	'God'], 'God');
 
 let userAns = prompt(saviour.ask);
+
+if (userAns === saviour.ans) {
+	alert('correct');
+} else {
+	alert('wrong');
+}
