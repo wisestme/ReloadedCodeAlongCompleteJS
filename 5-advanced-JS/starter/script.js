@@ -394,5 +394,7 @@ interviewQuestion('Programmer')('Chijioke');*/
 })(3);*/
 
 let Question = function(ask, ansArr, ans) {
-
+	this.ask = ask;
+	this.ansArr = ansArr;
+	this.ans = ans;
 }
