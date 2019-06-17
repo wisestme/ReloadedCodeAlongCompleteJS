@@ -392,3 +392,7 @@ interviewQuestion('Programmer')('Chijioke');*/
 	let score = Math.random() * 10;
 	console.log((score - goodluck) >= 5);
 })(3);*/
+
+let Question = function() {
+	
+}
