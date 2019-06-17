@@ -393,6 +393,6 @@ interviewQuestion('Programmer')('Chijioke');*/
 	console.log((score - goodluck) >= 5);
 })(3);*/
 
-let Question = function() {
-	
+let Question = function(ask, ansArr, ans) {
+
 }
