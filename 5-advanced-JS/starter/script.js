@@ -399,8 +399,11 @@ let Question = function(ask, ansArr, ans) {
 	this.ans = ans;
 }
 
-let saviour = new Question('Who is Jesus?', 
+let saviour = new Question('Who is Jesus? '
+	+ 'a) Desciple b) Prophet c) God', 
 	[
 	'Desciple', 
 	'Prophet', 
 	'God'], 'God');
+
+	prompt(saviour.ask);
