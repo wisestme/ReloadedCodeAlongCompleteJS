@@ -398,3 +398,9 @@ let Question = function(ask, ansArr, ans) {
 	this.ansArr = ansArr;
 	this.ans = ans;
 }
+
+let saviour = new Question('Who is Jesus?', 
+	[
+	'Desciple', 
+	'Prophet', 
+	'God'], 'God');
