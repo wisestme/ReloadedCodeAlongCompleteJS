@@ -406,4 +406,4 @@ let saviour = new Question('Who is Jesus? \n'
 	'Prophet', 
 	'God'], 'God');
 
-	prompt(saviour.ask);
+let userAns = prompt(saviour.ask);
