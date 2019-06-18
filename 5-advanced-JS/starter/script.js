@@ -415,8 +415,8 @@ let programminLanguages = new Question('How many programming languages do we hav
 
 
 let allQuestions = [
-saviour
-programminLanguages
+saviour,
+programminLanguages,
 ];
 
 numberRandom = floor(Math.random()*(allQuestions.length-1));
