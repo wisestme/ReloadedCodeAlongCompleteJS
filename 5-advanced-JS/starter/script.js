@@ -424,11 +424,15 @@ programminLanguages,
 // create a random number
 numberRandom = Math.floor(Math.random()*(allQuestions.length));
 
-// set user question
+
+function askQuestion(){
+	// set user question
 let userQuestion = allQuestions[numberRandom];
 
-// prompt for user answer
+	// prompt for user answer
 let userAns = prompt(userQuestion.ask);
+}
+
 
 // set condition for wrong or correct answer
 if (userAns === userQuestion.ans) {
@@ -436,3 +440,5 @@ if (userAns === userQuestion.ans) {
 } else {
 	alert('wrong');
 }
+
+allQuestions.splice(numberRandom, 1)
