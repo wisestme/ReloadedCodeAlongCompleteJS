@@ -419,13 +419,13 @@ saviour,
 programminLanguages,
 ];
 
-numberRandom = Math.floor(Math.random()*(allQuestions.length-1));
+numberRandom = Math.floor(Math.random()*(allQuestions.length));
 
 let userQuestion = allQuestions[numberRandom];
 
 let userAns = prompt(userQuestion.ask);
 
-if (userAns === programminLanguages.ans) {
+if (userAns === userQuestion.ans) {
 	alert('correct');
 } else {
 	alert('wrong');
