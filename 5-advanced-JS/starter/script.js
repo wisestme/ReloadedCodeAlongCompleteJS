@@ -406,9 +406,10 @@ let saviour = new Question('Who is Jesus? \n'
 	'Prophet', 
 	'God'], 'God');
 
-let programminLanguages = new Question();
+let programminLanguages = new Question('How many programming languages do we have? \n'
+	+ 'a) <10 \nb) 10 \nc) >5');
 
-let userAns = prompt(saviour.ask);
+let userAns = prompt(programminLanguages.ask);
 
 if (userAns === saviour.ans) {
 	alert('correct');
