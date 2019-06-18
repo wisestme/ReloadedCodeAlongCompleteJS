@@ -433,8 +433,8 @@ let userQuestion = allQuestions[numberRandom];
 let userAns = prompt(userQuestion.ask);
 }
 
-
-// set condition for wrong or correct answer
+function ansQuestion(){
+	// set condition for wrong or correct answer
 if (userAns === userQuestion.ans) {
 	alert('correct');
 } else {
@@ -442,3 +442,4 @@ if (userAns === userQuestion.ans) {
 }
 
 allQuestions.splice(numberRandom, 1)
+}
