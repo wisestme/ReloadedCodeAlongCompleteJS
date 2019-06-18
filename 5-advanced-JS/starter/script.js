@@ -440,4 +440,4 @@ if (userAns === userQuestion.ans) {
 }
 
 allQuestions.splice(numberRandom, 1)
-})
+})();
