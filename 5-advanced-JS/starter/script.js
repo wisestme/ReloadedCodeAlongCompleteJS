@@ -422,7 +422,8 @@ saviour,
 programminLanguages,
 ];
 
-// create a random number
+function askQuestion() {
+	// create a random number
 numberRandom = Math.floor(Math.random()*(allQuestions.length));
 
 // set user question
@@ -439,8 +440,14 @@ if (userAns === userQuestion.ans) {
 	alert('wrong');
 }
 
-allQuestions.splice(numberRandom, 1)
+// remove answered question
+allQuestions.splice(numberRandom, 1);
+
+// calls the next question
 nextQuestion();
+}
+
+//askQuestion();
 
 // prompts for next question
 function nextQuestion() {
@@ -461,7 +468,7 @@ if (userAns === userQuestion.ans) {
 	alert('wrong');
 }
 
-allQuestions.splice(numberRandom, 1)
+allQuestions.splice(numberRandom, 1);
 
 }
 })();
