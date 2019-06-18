@@ -419,7 +419,7 @@ saviour,
 programminLanguages,
 ];
 
-numberRandom = floor(Math.random()*(allQuestions.length-1));
+numberRandom = Math.floor(Math.random()*(allQuestions.length-1));
 
 let userQuestion = allQuestions[numberRandom];
 
