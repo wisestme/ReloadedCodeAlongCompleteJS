@@ -447,7 +447,7 @@ allQuestions.splice(numberRandom, 1);
 nextQuestion();
 }
 
-//askQuestion();
+askQuestion();
 
 // prompts for next question
 function nextQuestion() {
