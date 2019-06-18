@@ -413,9 +413,14 @@ let programminLanguages = new Question('How many programming languages do we hav
 	'10',
 	'<10'], '>5');
 
+let allQuestions = [
+saviour
+programminLanguages
+];
+
 let userAns = prompt(programminLanguages.ask);
 
-if (userAns === saviour.ans) {
+if (userAns === programminLanguages.ans) {
 	alert('correct');
 } else {
 	alert('wrong');
