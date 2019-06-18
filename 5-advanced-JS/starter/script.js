@@ -440,4 +440,28 @@ if (userAns === userQuestion.ans) {
 }
 
 allQuestions.splice(numberRandom, 1)
+//nextQuestion();
+
+// prompts for next question
+function nextQuestion() {
+	// create a random number
+numberRandom = Math.floor(Math.random()*(allQuestions.length));
+
+// set user question
+let userQuestion = allQuestions[numberRandom];
+
+
+// prompt for user answer
+let userAns = prompt(userQuestion.ask);
+
+// set condition for wrong or correct answer
+if (userAns === userQuestion.ans) {
+	alert('correct');
+} else {
+	alert('wrong');
+}
+
+allQuestions.splice(numberRandom, 1)
+
+}
 })();
