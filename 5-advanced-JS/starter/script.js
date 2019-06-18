@@ -440,7 +440,7 @@ if (userAns === userQuestion.ans) {
 }
 
 allQuestions.splice(numberRandom, 1)
-//nextQuestion();
+nextQuestion();
 
 // prompts for next question
 function nextQuestion() {
