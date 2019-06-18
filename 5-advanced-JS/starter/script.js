@@ -394,7 +394,8 @@ interviewQuestion('Programmer')('Chijioke');*/
 })(3);*/
 
 // Create annonymous function
-let Question = function(ask, ansArr, ans) {
+(function(){
+	let Question = function(ask, ansArr, ans) {
 	this.ask = ask;
 	this.ansArr = ansArr;
 	this.ans = ans;
@@ -424,17 +425,14 @@ programminLanguages,
 // create a random number
 numberRandom = Math.floor(Math.random()*(allQuestions.length));
 
-
-function askQuestion(){
-	// set user question
+// set user question
 let userQuestion = allQuestions[numberRandom];
 
-	// prompt for user answer
-let userAns = prompt(userQuestion.ask);
-}
 
-function ansQuestion(){
-	// set condition for wrong or correct answer
+// prompt for user answer
+let userAns = prompt(userQuestion.ask);
+
+// set condition for wrong or correct answer
 if (userAns === userQuestion.ans) {
 	alert('correct');
 } else {
@@ -442,4 +440,4 @@ if (userAns === userQuestion.ans) {
 }
 
 allQuestions.splice(numberRandom, 1)
-}
+})
