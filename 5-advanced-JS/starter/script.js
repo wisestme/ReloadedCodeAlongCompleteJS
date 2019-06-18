@@ -411,7 +411,7 @@ let programminLanguages = new Question('How many programming languages do we hav
 	[
 	'>5',
 	'10',
-	'<10'],);
+	'<10'], '>5');
 
 let userAns = prompt(programminLanguages.ask);
 
