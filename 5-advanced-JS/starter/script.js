@@ -393,12 +393,14 @@ interviewQuestion('Programmer')('Chijioke');*/
 	console.log((score - goodluck) >= 5);
 })(3);*/
 
+// Create annonymous function
 let Question = function(ask, ansArr, ans) {
 	this.ask = ask;
 	this.ansArr = ansArr;
 	this.ans = ans;
 }
 
+// Create questions using bfunction constructors
 let saviour = new Question('Who is Jesus? \n'
 	+ 'a) Desciple \nb) Prophet \nc) God', 
 	[
@@ -413,18 +415,22 @@ let programminLanguages = new Question('How many programming languages do we hav
 	'10',
 	'<10'], '>5');
 
-
+// Put all questions in an array
 let allQuestions = [
 saviour,
 programminLanguages,
 ];
 
+// create a random number
 numberRandom = Math.floor(Math.random()*(allQuestions.length));
 
+// set user question
 let userQuestion = allQuestions[numberRandom];
 
+// prompt for user answer
 let userAns = prompt(userQuestion.ask);
 
+// set condition for wrong or correct answer
 if (userAns === userQuestion.ans) {
 	alert('correct');
 } else {
