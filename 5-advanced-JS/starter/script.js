@@ -436,7 +436,7 @@ let userAns = prompt(userQuestion.ask);
 // set condition for wrong or correct answer
 if (userAns === userQuestion.ans) {
 	alert('correct');
-} else {
+	} else {
 	alert('wrong');
 }
 
@@ -446,11 +446,8 @@ allQuestions.splice(numberRandom, 1);
 if(allQuestions.length >= 1){
 	// calls the next question
 askQuestion();
-}
-
+	}
 }
 
 askQuestion();
-
-
 })();
